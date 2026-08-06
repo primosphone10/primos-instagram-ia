@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PrimosStockItem",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "available",
+        "reserved",
+        "negotiation",
+        "sold"
+      ]
+    },
+    "model": {
+      "type": "string"
+    },
+    "storage": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "color": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "price": {
+      "type": "number"
+    },
+    "battery_health": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "condition": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "replaced_parts": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "status",
+    "model",
+    "price",
+    "updated_at"
+  ]
+}

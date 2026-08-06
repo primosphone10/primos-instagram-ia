@@ -1,0 +1,21 @@
+metadata:
+  id: respostas
+  version: 1.0.0
+
+structure:
+  - reconhecer_quando_necessario
+  - responder_exatamente
+  - orientar_quando_ajuda
+  - conduzir_para_proximo_passo
+
+limits:
+  maximum_questions: 1
+  maximum_paragraphs: 2
+  default_length: curta
+
+tone:
+  - natural
+  - humano
+  - objetivo
+  - consultivo
+  - seguro

@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PrimosConversationState",
+  "type": "object",
+  "properties": {
+    "conversation_id": {
+      "type": "string"
+    },
+    "primary_intent": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "customer_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "budget": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "use_case": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "requested_model": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "requested_storage": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "requested_color": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "trade_in": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "missing_information": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "required_sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "requires_human": {
+      "type": "boolean"
+    },
+    "next_action": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "conversation_id",
+    "missing_information",
+    "required_sources",
+    "requires_human"
+  ]
+}

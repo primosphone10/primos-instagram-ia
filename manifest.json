@@ -1,0 +1,10 @@
+{
+  "name": "Base Primos V1",
+  "version": "1.0.0",
+  "entrypoints": {
+    "system_prompt": "prompts/system.md",
+    "universal_rules": "rules/00_regras_universais.yaml",
+    "decision_engine": "rules/01_motor_decisao.yaml",
+    "quality_check": "quality/checklist.md"
+  }
+}

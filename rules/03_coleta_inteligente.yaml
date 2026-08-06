@@ -1,0 +1,29 @@
+metadata:
+  id: coleta_inteligente
+  version: 1.0.0
+
+source_order:
+  - conversa_atual
+  - memoria_cliente
+  - kommo
+  - estoque
+  - base_primos
+  - pergunta_ao_cliente
+
+rules:
+  - Coletar somente informações ausentes.
+  - Fazer uma pergunta por mensagem.
+  - Não transformar a conversa em formulário.
+  - Atualizar o estado da conversa após cada mensagem.
+
+trade_in:
+  required:
+    - modelo
+    - armazenamento
+    - saude_bateria
+    - pecas_trocadas
+    - funcionamento
+    - estado_estetico
+  visual_check:
+    preferred: Solicitar fotos da frente, traseira e laterais.
+    fallback: Perguntar se possui muitas marcas de uso, riscos ou arranhões.

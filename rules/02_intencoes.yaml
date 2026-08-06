@@ -1,0 +1,30 @@
+metadata:
+  id: intencoes
+  version: 1.0.0
+
+intents:
+  compra:
+    sources: [estoque, precos, pagamentos]
+  estoque:
+    sources: [estoque]
+  preco:
+    sources: [estoque, precos]
+  tabela_precos:
+    sources: [estoque, precos]
+    rule: Mostrar somente aparelhos disponíveis.
+  troca:
+    sources: [trocas, historico]
+  assistencia:
+    sources: [assistencia]
+  garantia:
+    sources: [garantias, historico]
+  comparacao:
+    sources: [produtos, estoque]
+  desconto:
+    sources: [politica_comercial]
+    requires_human: true
+
+model_interpretation:
+  - '"iPhone 13" significa iPhone 13 normal.'
+  - '"linha 13" pode incluir mini, normal, Pro e Pro Max.'
+  - Não listar versões diferentes quando o cliente já informou o modelo exato.

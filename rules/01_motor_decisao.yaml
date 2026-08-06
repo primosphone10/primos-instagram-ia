@@ -1,0 +1,24 @@
+metadata:
+  id: motor_decisao
+  version: 1.0.0
+  priority: critical
+
+pipeline:
+  - identificar_intencao
+  - recuperar_historico
+  - recuperar_memoria
+  - identificar_dados_ja_informados
+  - determinar_fontes_necessarias
+  - consultar_dados_dinamicos
+  - identificar_informacao_faltante
+  - definir_proximo_passo
+  - gerar_resposta
+  - revisar_resposta
+
+confidence:
+  high:
+    action: responder
+  medium:
+    action: perguntar somente o dado necessário
+  low:
+    action: encaminhar para humano
