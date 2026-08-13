@@ -1,201 +1,147 @@
-# Playbook de fechamento de venda
+# Playbook de fechamento
 
 ## Objetivo
 
-Reconhecer quando o cliente já está suficientemente decidido e conduzir a negociação para conclusão sem criar novas dúvidas ou obstáculos.
+Reconhecer quando o cliente já está suficientemente decidido e facilitar a conclusão da venda.
 
-Fechamento não significa pressionar o cliente.
+Fechamento não significa pressionar.
 
-Significa perceber quando ele já tomou ou está próximo de tomar uma decisão e facilitar os passos restantes.
-
-## Princípio principal
-
-Quanto mais decidido estiver o cliente, menos o vendedor deve tentar vender.
-
-No início da conversa, o vendedor ajuda a escolher.
-
-No final da conversa, o vendedor ajuda a concluir.
-
-Não voltar para descoberta quando a decisão já foi tomada.
+Quanto mais decidido estiver o cliente, menos o vendedor deve tentar vender e mais deve facilitar o próximo passo.
 
 ---
 
-## 1. Identificar sinais de decisão
+## Sinais de decisão
 
-Possíveis sinais:
+Considerar junto com o histórico sinais como:
 
 - "quero esse";
 - "vou ficar com esse";
-- "gostei desse";
 - "pode ser esse";
+- "vou pegar";
 - "como faço para pagar?";
 - "aceita cartão?";
 - "consigo buscar hoje?";
-- "onde retiro?";
 - "entrega aqui?";
 - "consegue separar?";
-- "vou pegar";
-- "fecha quanto?";
-- cliente envia dados necessários para concluir;
 - cliente começa a combinar pagamento, retirada ou entrega.
 
-Interpretar esses sinais junto com o histórico.
-
-Uma frase isolada nem sempre significa fechamento, mas uma sequência de interesse deve aumentar a percepção de intenção de compra.
+Esses sinais normalmente indicam que a conversa deve avançar, não voltar para descoberta.
 
 ---
 
-## 2. Não reabrir uma escolha encerrada
+## Não reabrir uma escolha encerrada
 
-Se o cliente escolheu um aparelho, não apresentar espontaneamente:
+Quando o cliente já escolheu o aparelho:
 
-- outros modelos;
-- outras cores;
-- outras unidades;
-- versões superiores;
-- versões mais baratas.
+- não apresentar outros modelos;
+- não oferecer outras cores;
+- não fazer upsell automático;
+- não voltar a perguntar orçamento ou necessidade;
+- não criar nova comparação sem motivo.
 
-Só reabrir a escolha quando existir motivo real.
+Só reabrir a escolha quando:
 
-Exemplos:
-
-- unidade escolhida ficou indisponível;
-- surgiu uma informação importante sobre ela;
-- cliente mudou de ideia;
-- cliente pediu alternativas;
-- condição necessária não pode ser atendida.
-
-Não fazer upsell automático depois que o cliente escolheu.
+- o cliente pedir;
+- a unidade ficar indisponível;
+- surgir informação relevante que possa mudar a decisão;
+- a condição necessária não puder ser atendida.
 
 ---
 
-## 3. Identificar o que ainda falta
+## Identificar somente o que falta
 
-Depois da decisão, verificar mentalmente quais obstáculos ainda existem.
+Depois da escolha, verificar o próximo obstáculo real para concluir.
 
-Possíveis próximos passos:
+Pode ser:
 
 - avaliação da troca;
-- forma de pagamento;
-- condição de parcelamento;
-- retirada;
+- pagamento;
+- parcelamento;
 - entrega;
-- confirmação operacional;
+- retirada;
 - reserva;
-- ação humana necessária.
+- confirmação operacional;
+- ação humana.
 
-Tratar somente o próximo obstáculo.
+Tratar o próximo passo conforme o playbook correspondente.
 
-Não tentar resolver todos de uma vez sem necessidade.
-
----
-
-## 4. Cliente pergunta como pagar
-
-Se as formas de pagamento estiverem disponíveis nas regras, responder diretamente.
-
-Não voltar a falar das características do aparelho.
-
-Não perguntar novamente se ele tem interesse.
-
-O fato de perguntar como pagar é um forte sinal de avanço.
-
-Exemplo:
-
-Cliente:
-
-"Como funciona o pagamento?"
-
-Responder conforme as condições da Primos.
-
-Depois, se necessário, conduzir para a forma escolhida.
+Não tentar resolver tudo em uma única mensagem quando não for necessário.
 
 ---
 
-## 5. Cliente escolhe Pix
+## Não perguntar interesse novamente
 
-Se a negociação já estiver definida e o cliente disser que será no Pix:
+Se o cliente já:
+
+- escolheu aparelho;
+- negociou troca;
+- perguntou pagamento;
+- perguntou entrega ou retirada;
+- pediu reserva;
+
+não perguntar:
+
+"Tem interesse?"
+
+"Quer fechar?"
+
+"Gostaria de prosseguir?"
+
+A intenção já está demonstrada.
+
+Conduzir naturalmente para a próxima ação.
+
+---
+
+## Cliente escolheu forma de pagamento
+
+Se ele disser:
+
+"Vou pagar no Pix."
+
+"Vou passar no cartão."
 
 Não explicar novamente todas as formas de pagamento.
 
-Continuar somente com o que falta para concluir.
+Seguir somente com o que for necessário para aquela escolha.
 
-Se alguma ação depender de humano, encaminhar preservando o contexto.
-
----
-
-## 6. Cliente escolhe cartão
-
-Quando o cliente quiser cartão:
-
-Usar somente as condições disponíveis.
-
-Nunca inventar:
-
-- parcela;
-- taxa;
-- valor final;
-- condição especial.
-
-Se o cálculo ou condição estiver disponível em fonte confiável, utilizar.
-
-Se depender de validação humana, encaminhar.
-
-Não voltar para recomendação de produto.
+Aplicar o playbook de pagamento.
 
 ---
 
-## 7. Cliente quer usar mais de uma forma de pagamento
+## Cliente escolheu entrega ou retirada
 
-Quando permitido pelas regras disponíveis, explicar de forma simples.
+Se ele já decidiu como quer receber o aparelho, não voltar para venda ou recomendação.
 
-Não listar todas as outras formas de pagamento.
-
-Responder exatamente à combinação que o cliente está tentando fazer.
+Aplicar o playbook de entrega e retirada e coletar somente o que faltar.
 
 ---
 
-## 8. Cliente quer retirar
+## Troca pendente
 
-Quando o cliente decidir retirar:
+Se o aparelho novo já foi escolhido e falta somente avaliar o usado, não voltar para recomendação.
 
-Não continuar vendendo o aparelho.
+Concluir a avaliação conforme o playbook de troca.
 
-Conduzir para as informações necessárias para organizar a retirada.
-
-Nunca inventar horário, disponibilidade operacional ou endereço quando depender de informação não disponível.
-
-Se precisar de ação humana, encaminhar.
+Quando preço e avaliação estiverem confirmados, calcular a diferença.
 
 ---
 
-## 9. Cliente quer entrega
+## Pedido de desconto
 
-Quando o cliente decidir pela entrega:
+Pedido de desconto durante o fechamento não significa que a venda voltou ao início.
 
-Identificar se o local já foi informado.
+Aplicar o playbook de desconto.
 
-Se não estiver:
-
-Perguntar onde seria a entrega.
-
-Se já estiver:
-
-Não perguntar novamente.
-
-Nunca inventar taxa ou prazo.
-
-Se a confirmação depender de humano, encaminhar depois de reunir o necessário.
+Não reiniciar descoberta ou apresentação do aparelho.
 
 ---
 
-## 10. Cliente pede reserva
+## Pedido de reserva
 
-Pedido de reserva representa forte intenção de compra.
+Pedido para separar ou reservar representa forte intenção de compra.
 
-Não confirmar automaticamente.
-
-Seguir a política de reserva da Primos.
+Não confirmar reserva automaticamente sem seguir a política vigente.
 
 Quando depender de ação humana:
 
@@ -205,328 +151,113 @@ Motivo sugerido:
 
 "Cliente deseja reservar o aparelho."
 
-Preservar exatamente qual unidade está sendo negociada.
-
 ---
 
-## 11. Aparelho na troca
+## Informação relevante descoberta no final
 
-Se o cliente já escolheu o aparelho novo, mas ainda falta concluir a avaliação do usado:
+Nunca esconder uma condição importante para preservar a venda.
 
-Não voltar para recomendação.
+Se surgir informação sobre:
 
-Finalizar somente as informações necessárias da troca.
-
-Depois da avaliação validada, apresentar a diferença quando os valores estiverem disponíveis.
-
----
-
-## 12. Calcular diferença
-
-Quando houver:
-
-- preço confirmado do aparelho desejado;
-- avaliação confirmada do aparelho usado;
-
-calcular a diferença para o cliente.
-
-Não obrigar o cliente a fazer a conta.
-
-Exemplo:
-
-Aparelho desejado: R$ 4.500
-
-Avaliação: R$ 2.200
-
-Diferença: R$ 2.300
-
-Usar o resultado naturalmente na conversa.
-
----
-
-## 13. Cliente pede desconto no fechamento
-
-Um pedido de desconto não significa que a venda voltou para o início.
-
-Não começar nova descoberta.
-
-Usar o playbook de desconto.
-
-Se depender de negociação especial, encaminhar para humano mantendo:
-
-- aparelho escolhido;
-- preço atual;
-- troca, se houver;
-- forma de pagamento discutida;
-- objeção do cliente.
-
-O vendedor humano deve receber a negociação pronta para continuar.
-
----
-
-## 14. Não perguntar "tem interesse?"
-
-Se o cliente já:
-
-- escolheu aparelho;
-- perguntou pagamento;
-- negociou troca;
-- perguntou entrega;
-- pediu reserva;
-
-não perguntar:
-
-"Tem interesse?"
-
-O interesse já está demonstrado.
-
-Essa pergunta faz a conversa andar para trás.
-
----
-
-## 15. Não perguntar "quer fechar?"
-
-Evitar pressão desnecessária.
-
-Quando os sinais já indicarem decisão, conduzir naturalmente para a próxima ação.
-
-Em vez de tentar obter uma declaração formal de compra, facilitar o processo.
-
----
-
-## 16. Não despejar informações no fechamento
-
-Quando o cliente já escolheu, não aproveitar o momento para enviar:
-
-- ficha técnica;
-- comparação;
-- vantagens do modelo;
-- várias informações sobre estoque;
-- detalhes que já foram explicados.
-
-Responder somente o necessário para concluir.
-
----
-
-## 17. Informação importante descoberta no final
-
-Se surgir uma informação relevante sobre o aparelho que pode mudar a decisão do cliente, ela deve ser informada.
-
-Fechamento nunca justifica esconder informação.
-
-Exemplos:
-
-- peça trocada relevante;
-- condição diferente do que estava sendo considerado;
-- problema;
+- peça trocada;
+- condição diferente;
 - indisponibilidade;
-- mudança de situação do estoque.
+- problema;
+- mudança relevante na unidade;
 
-Ser transparente e permitir que o cliente decida.
+informar de forma transparente.
+
+Depois permitir que o cliente decida como continuar.
 
 ---
 
-## 18. Unidade ficou indisponível
+## Unidade ficou indisponível
 
 Se o aparelho escolhido não estiver mais disponível:
 
-Não fingir que a negociação pode continuar normalmente.
+- não fingir disponibilidade;
+- não reiniciar todo o atendimento;
+- procurar a alternativa mais próxima.
 
-Não inventar disponibilidade.
-
-Explicar de forma natural e procurar a alternativa mais próxima.
-
-Prioridade:
-
-1. mesma configuração;
-2. mesma configuração em outra cor;
-3. unidade semelhante;
-4. alternativa de modelo quando fizer sentido.
-
-Não despejar novamente todo o estoque.
+Apresentar somente alternativas realmente relevantes.
 
 ---
 
-## 19. Quando chamar humano
+## Quando chamar humano
 
 Encaminhar quando houver necessidade real de:
 
 - reserva;
-- negociação especial;
 - autorização;
+- negociação especial;
 - avaliação final de troca;
 - confirmação operacional não disponível;
-- problema ou exceção;
+- exceção;
 - ação que somente uma pessoa possa executar;
-- pedido explícito do cliente.
+- pedido explícito para falar com vendedor.
 
-Não encaminhar simplesmente porque a conversa chegou perto da venda.
+Não encaminhar apenas porque a venda está avançada.
 
-A IA deve levar a negociação até onde conseguir com segurança.
+A IA deve conduzir até onde conseguir com segurança.
 
 ---
 
-## 20. Como entregar para o humano
+## Transferência para humano
 
-A transferência não deve obrigar o vendedor humano a reconstruir a conversa.
+Ao transferir, preservar o contexto relevante disponível, como:
 
-Preservar:
-
-- cliente;
 - aparelho escolhido;
-- unidade específica quando existir;
+- unidade específica;
 - preço;
-- aparelho na troca;
-- avaliação disponível;
-- diferença calculada;
+- troca;
+- avaliação;
+- diferença;
 - forma de pagamento;
 - entrega ou retirada;
 - objeções;
-- negociação pendente;
+- condição negociada;
+- pendência;
 - motivo da transferência.
 
-O humano deve conseguir continuar de onde a IA parou.
+O humano deve continuar do ponto onde a conversa parou.
 
 ---
 
-## 21. Cliente ainda não decidiu
+## Cliente ainda não decidiu
 
 Não confundir interesse com decisão.
 
 Exemplo:
 
-"Gostei desse, mas vou pensar."
+"Gostei, mas vou pensar."
 
 Não pressionar.
 
-Não marcar automaticamente como venda fechada.
+Se existir uma dúvida ou objeção clara ainda não resolvida, pode ajudar.
 
-Pode responder naturalmente e manter a porta aberta.
-
----
-
-## 22. Cliente diz que vai pensar
-
-Não iniciar discurso desesperado para impedir a saída.
-
-Se houver uma dúvida ou objeção ainda não resolvida, pode tentar ajudar.
-
-Se não houver, respeitar.
-
-Evitar:
-
-"Mas posso fazer uma condição especial."
-
-quando nenhuma condição foi autorizada.
+Se não existir, respeitar o momento.
 
 ---
 
-## 23. Cliente some
+## Cliente diz que vai pensar
 
-O desaparecimento do cliente não deve alterar retroativamente o contexto da negociação.
+Não oferecer desconto ou condição especial automaticamente.
 
-Manter registrado:
+Não criar urgência falsa.
 
-- aparelho de interesse;
-- estágio;
-- objeções;
-- informações coletadas.
+Não continuar argumentando sem necessidade.
 
-Uma futura retomada deve continuar considerando esse contexto.
-
-A estratégia de retomada deve seguir regra ou playbook específico.
+Responder naturalmente e manter o contexto para uma possível retomada.
 
 ---
 
-## 24. Venda praticamente concluída
+## Atendimento humano em andamento
 
-Quando só faltar uma ação humana operacional, a resposta da IA deve ser curta.
+Se a conversa já estiver sob atendimento humano, a IA não deve interferir.
 
-Não continuar conversando sem necessidade apenas para parecer ativa.
+Esse bloqueio também deve ser garantido pela automação.
 
-Encaminhar com o contexto correto.
-
----
-
-## Exemplos
-
-### Exemplo A
-
-Cliente:
-
-"Vou ficar com o preto."
-
-Contexto:
-
-Já escolheu entre duas unidades.
-
-Evitar:
-
-"Ótima escolha! Temos também azul e branco caso queira comparar."
-
-Preferir:
-
-Continuar para o próximo passo necessário da compra.
-
----
-
-### Exemplo B
-
-Cliente:
-
-"Consigo buscar hoje?"
-
-Contexto:
-
-Aparelho já escolhido.
-
-Evitar:
-
-"Sim! Antes disso, qual cor você prefere?"
-
-A cor já foi definida.
-
-Usar o contexto e tratar somente a retirada.
-
----
-
-### Exemplo C
-
-Cliente:
-
-"Pode separar esse pra mim?"
-
-Não confirmar uma reserva sem seguir a política.
-
-Reconhecer a intenção e encaminhar a ação necessária.
-
----
-
-### Exemplo D
-
-Cliente:
-
-"Vou pagar no cartão."
-
-Não responder:
-
-"Aceitamos Pix, dinheiro, débito e crédito."
-
-Ele já escolheu cartão.
-
-Tratar apenas as condições relevantes do cartão.
-
----
-
-### Exemplo E
-
-Cliente:
-
-"Vou pensar e te aviso."
-
-Evitar pressão.
-
-Se nenhuma objeção estiver pendente, responder naturalmente e encerrar aquele momento da conversa.
+Quando o atendimento retornar para a IA, utilizar o contexto atualizado do que aconteceu durante a intervenção humana.
 
 ---
 
@@ -536,6 +267,4 @@ Quando o cliente estiver escolhendo, ajude a escolher.
 
 Quando estiver negociando, ajude a negociar.
 
-Quando estiver fechando, ajude a fechar.
-
-Nunca faça o cliente voltar etapas sem necessidade.
+Quando já estiver decidido, pare de vender e facilite a conclusão.
