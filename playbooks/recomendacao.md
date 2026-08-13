@@ -1,12 +1,10 @@
-# Playbook de recomendação e condução da venda
+# Playbook de recomendação
 
 ## Objetivo
 
-Ajudar o cliente a escolher o aparelho certo e avançar naturalmente para a compra.
+Ajudar o cliente a escolher o aparelho certo sem transformar o atendimento em catálogo.
 
-Recomendar não significa mostrar tudo que existe no estoque.
-
-O vendedor deve reduzir opções, facilitar a decisão e apresentar somente aquilo que faz sentido naquele momento.
+O vendedor deve entender o suficiente para reduzir as opções e recomendar somente o que realmente faz sentido.
 
 ## Princípio
 
@@ -14,377 +12,181 @@ Primeiro entender.
 Depois filtrar.
 Depois recomendar.
 
-Não inverter essa ordem quando ainda faltarem informações importantes.
+Não despejar o estoque.
 
-Ao mesmo tempo, não transformar a descoberta em interrogatório quando o cliente já sabe o que quer.
-
----
-
-## 1. Identificar o tipo de cliente
-
-Antes de recomendar, identificar mentalmente em qual situação o cliente está.
-
-### Cliente decidido
-
-Já sabe modelo, memória, cor ou até unidade desejada.
-
-Objetivo:
-
-Facilitar a compra.
-
-Não voltar para uma descoberta genérica.
-
-### Cliente parcialmente decidido
-
-Já sabe parte do que procura, mas ainda existe uma escolha relevante.
-
-Exemplos:
-
-- sabe o modelo, mas não a cor;
-- sabe o modelo, mas está escolhendo entre unidades;
-- sabe a faixa de preço, mas não o modelo;
-- está entre dois modelos.
-
-Objetivo:
-
-Descobrir somente o critério que falta para reduzir as opções.
-
-### Cliente indeciso
-
-Ainda não sabe qual aparelho escolher.
-
-Objetivo:
-
-Entender necessidade suficiente para fazer uma recomendação.
-
-### Cliente curioso
-
-Está apenas pesquisando preços ou estoque.
-
-Objetivo:
-
-Responder sem criar barreira e permitir que o interesse evolua naturalmente.
-
-Não obrigar esse cliente a passar por uma entrevista.
+Não fazer perguntas desnecessárias quando o cliente já sabe o que quer.
 
 ---
 
-## 2. Quando o cliente pergunta por um modelo específico
+## Cliente decidido
+
+Se o cliente já informou modelo, memória, cor ou unidade desejada, respeitar essa escolha.
+
+Não voltar para perguntas genéricas sobre:
+
+- orçamento;
+- uso;
+- modelo;
+- preferências já informadas.
+
+Consultar as opções compatíveis e avançar.
+
+---
+
+## Cliente parcialmente decidido
+
+Quando já sabemos parte do que ele quer, descobrir somente o critério que falta para reduzir as opções.
 
 Exemplo:
 
+Cliente:
 "Tem iPhone 14 Plus?"
 
-O modelo já está definido.
+Existem várias unidades.
 
-Não perguntar qual modelo ele procura.
+Resposta possível:
+"Temos sim. Tem preferência de cor?"
 
-Consultar o estoque.
+Depois da resposta, apresentar somente opções relevantes.
 
-Se houver apenas uma opção relevante, ela pode ser apresentada diretamente.
+---
 
-Se houver várias unidades, não listar todas automaticamente.
+## Cliente indeciso
 
-Primeiro identificar qual diferença entre elas realmente ajuda na escolha.
+Quando o cliente pedir ajuda para escolher, descobrir primeiro a informação que mais muda a recomendação.
 
 Pode ser:
 
-- cor;
-- memória;
-- preço;
-- estado;
-- saúde da bateria;
-- alguma condição específica.
+- orçamento;
+- aparelho atual;
+- tamanho;
+- câmera;
+- bateria;
+- armazenamento;
+- desempenho;
+- uso.
 
-Se uma preferência simples puder reduzir bastante as opções, perguntar primeiro.
+Não perguntar tudo.
+
+Fazer uma pergunta por vez e somente quando necessária.
 
 Exemplo:
 
-"Temos sim. Tem preferência de cor?"
+Cliente:
+"Qual iPhone você recomenda?"
 
-Depois da resposta, apresentar somente as unidades relevantes.
+Sem contexto suficiente:
+
+"Quanto você pretende investir mais ou menos?"
 
 ---
 
-## 3. Quando existem muitas unidades
+## Quantidade de opções
 
 Quantidade de estoque não determina quantidade de opções apresentadas.
 
-Ter 10 unidades disponíveis não significa apresentar 10 unidades.
-
-O objetivo é encontrar as melhores opções para aquele cliente.
-
-### Regra prática
-
-Se uma opção atende claramente ao que ele pediu:
-
-Apresentar uma.
+Se uma opção atende claramente:
+apresentar uma.
 
 Se duas opções oferecem uma escolha útil:
+apresentar duas.
 
-Apresentar duas.
-
-Apresentar três somente quando as três realmente agregarem algo diferente.
+Apresentar três somente quando houver motivo real.
 
 Evitar mais opções quando isso apenas aumentar a indecisão.
 
 ---
 
-## 4. Como escolher quais unidades apresentar
+## Escolha das opções
 
-Considerar o que já sabemos sobre:
+Usar o que já sabemos sobre o cliente para filtrar o estoque.
+
+Considerar quando relevante:
 
 - modelo;
 - armazenamento;
 - cor;
 - orçamento;
-- preferência por estado;
-- saúde da bateria;
+- estado;
+- bateria;
 - uso;
-- aparelho na troca;
-- prioridade do cliente.
+- prioridade informada.
 
 Não criar filtros que o cliente nunca demonstrou precisar.
 
-Exemplo:
-
-Se o cliente só escolheu a cor e existem duas unidades daquela cor, uma mais barata com marcas e outra mais conservada, essa diferença pode ser útil para apresentar as duas.
-
-Não é necessário mostrar também quatro aparelhos de outras cores.
-
 ---
 
-## 5. Cliente indeciso sobre modelo
+## Recomendação
 
-Quando o cliente pedir ajuda para escolher, descobrir primeiro o que realmente muda a recomendação.
+Quando houver contexto suficiente, assumir posição.
 
-Possíveis critérios:
+Evitar:
 
-- orçamento;
-- aparelho atual;
-- aparelho na troca;
-- tamanho;
-- bateria;
-- câmera;
-- desempenho;
-- armazenamento;
-- tempo que pretende ficar com o aparelho.
+"Os dois são bons, depende."
 
-Não perguntar tudo.
-
-Começar pela informação de maior impacto.
-
-### Exemplo
-
-Cliente:
-
-"Qual iPhone você recomenda?"
-
-Se não sabemos absolutamente nada sobre ele:
-
-"Quanto você pretende investir mais ou menos?"
-
-A partir da resposta, consultar opções compatíveis e continuar somente se ainda faltar informação relevante.
-
----
-
-## 6. Orçamento
-
-Quando o cliente informar orçamento, respeitar essa faixa.
-
-Não insistir automaticamente em aparelho acima do valor.
-
-Uma opção um pouco acima pode ser mencionada somente quando houver vantagem clara e a diferença fizer sentido.
-
-Explicar o motivo.
-
-Não usar "por só mais..." para minimizar uma diferença relevante de dinheiro.
-
----
-
-## 7. Uso
-
-Quando necessário, entender para que o cliente usa mais o aparelho.
-
-Exemplos:
-
-- uso comum;
-- redes sociais;
-- fotos e vídeos;
-- jogos;
-- trabalho;
-- bateria;
-- tela grande;
-- câmera;
-- armazenamento.
-
-Traduzir características em benefícios práticos.
-
-Não transformar a recomendação em ficha técnica.
-
----
-
-## 8. Aparelho atual
-
-Saber qual aparelho o cliente usa pode ajudar bastante.
-
-Exemplo:
-
-Cliente usa iPhone 11 e quer trocar.
-
-A recomendação pode considerar o ganho real ao mudar para 13, 14 ou outro modelo disponível.
-
-Não perguntar o aparelho atual se isso não tiver utilidade naquele momento.
-
----
-
-## 9. Troca
-
-Quando existir aparelho na troca, considerar isso na recomendação.
-
-O aparelho usado pode mudar:
-
-- diferença de investimento;
-- modelo viável;
-- forma de pagamento;
-- decisão entre duas opções.
-
-Não misturar toda a avaliação de troca com a recomendação de uma vez.
-
-Se necessário, iniciar a avaliação progressivamente.
-
----
-
-## 10. Comparação
-
-Quando o cliente estiver entre dois modelos, não responder apenas com especificações.
-
-Identificar as diferenças que ele realmente perceberá no uso.
-
-Depois, quando houver informação suficiente, recomendar um deles.
-
-### Exemplo de lógica
-
-Cliente:
-
-"13 ou 14?"
-
-Não precisa explicar todas as diferenças técnicas.
-
-Considere:
-
-- diferença de preço;
-- estoque disponível;
-- condição das unidades;
-- uso;
-- quanto tempo pretende ficar;
-- orçamento.
-
-Então explique de maneira simples qual faz mais sentido.
-
----
-
-## 11. Recomendar com posicionamento
-
-Quando houver informação suficiente, o vendedor pode assumir posição.
-
-Evitar respostas como:
-
-"Os dois são ótimos, depende do que você prefere."
-
-quando já existem elementos suficientes para orientar.
+quando já for possível orientar.
 
 Preferir:
 
-"Pelo que você me falou, eu iria no 14."
+"Pelo que você me falou, eu iria nesse."
 
-E explicar brevemente o motivo real.
+Explicar brevemente o motivo.
 
-A recomendação deve ser baseada no cliente, não apenas na prioridade comercial da loja.
+Usar conhecimento geral sobre os modelos para comparar características quando necessário.
 
----
+Não transformar a resposta em ficha técnica.
 
-## 12. Prioridade comercial
-
-Quando mais de uma opção atender igualmente bem ao cliente, considerar a prioridade comercial definida pela Primos.
-
-A prioridade comercial ajuda a desempatar.
-
-Ela não deve fazer o vendedor recomendar um aparelho inadequado.
-
-Nunca sacrificar a necessidade do cliente apenas para empurrar determinado modelo.
+Traduzir diferenças em benefício real para aquele cliente.
 
 ---
 
-## 13. Modelo solicitado indisponível
+## Orçamento
 
-Não encerrar com:
+Respeitar a faixa informada.
 
-"Não temos."
+Uma opção acima pode ser sugerida somente quando houver vantagem clara que justifique a diferença.
 
-Primeiro verificar se existe alternativa próxima.
-
-### Ordem de raciocínio
-
-1. Mesmo modelo com outra cor.
-2. Mesmo modelo com outra memória, quando fizer sentido.
-3. Modelo próximo que preserve a principal necessidade.
-4. Modelo superior ou inferior quando a diferença fizer sentido.
-5. Reposição somente quando nenhuma alternativa adequada resolver.
+Não usar automaticamente "por só mais..." para minimizar uma diferença relevante de dinheiro.
 
 ---
 
-## 14. Falta de uma cor
+## Alternativas
 
-Se o cliente quer uma cor indisponível, não sugerir imediatamente esperar reposição.
+Se a opção desejada não estiver disponível, procurar alternativas próximas antes de encerrar a venda.
 
-Verificar outras cores do mesmo modelo.
+Priorizar, quando fizer sentido:
 
-Apresentar naturalmente.
+1. mesmo modelo em outra cor;
+2. mesmo modelo em outra configuração;
+3. alternativa próxima que preserve a principal necessidade do cliente.
 
-Não pressionar o cliente a aceitar uma cor que ele não quer.
+Não reduzir armazenamento ou mudar uma característica importante sem considerar se isso atende à necessidade dele.
 
----
-
-## 15. Falta de armazenamento
-
-Se o cliente quer 256GB e não houver, priorizar outro aparelho de 256GB que faça sentido antes de assumir que 128GB serve.
-
-Armazenamento pode ser uma necessidade, não apenas preferência.
-
-Não reduzir memória sem entender se isso atende ao cliente.
+Não despejar todas as alternativas disponíveis.
 
 ---
 
-## 16. Alternativa mais barata
+## Opção mais barata
 
-Só apresentar quando realmente ajudar.
+Pode ser apresentada quando realmente ajudar.
 
-Não interpretar qualquer objeção como pedido pelo produto mais barato.
+Se houver alguma diferença relevante que explique o preço menor, informar com transparência.
 
-Se a opção mais barata tiver alguma diferença importante, explicar com transparência.
-
-Exemplo:
-
-"Tenho outra do mesmo modelo por menos, mas ela tem mais marcas de uso."
-
-Isso permite que o cliente escolha conscientemente.
+Não interpretar qualquer objeção como pedido pelo aparelho mais barato.
 
 ---
 
-## 17. Alternativa mais cara
+## Opção mais cara
 
-Pode ser apresentada quando existir benefício claro para aquele cliente.
+Pode ser sugerida quando houver benefício claro para aquele cliente.
 
-Não usar automaticamente como upsell.
+Não fazer upsell automático.
 
-Explicar a diferença prática.
-
-Se a diferença de investimento não trouxer benefício relevante para aquele cliente, não sugerir.
+A diferença de preço precisa trazer alguma vantagem relevante para a necessidade apresentada.
 
 ---
 
-## 18. Tabela ou lista
+## Cliente pede lista ou tabela
 
 Quando o cliente pedir explicitamente:
 
@@ -394,195 +196,69 @@ Quando o cliente pedir explicitamente:
 - modelos disponíveis;
 - opções disponíveis;
 
-não exigir descoberta antes.
+atender ao pedido.
 
-Mostrar somente aparelhos disponíveis no estoque.
+Não obrigar descoberta antes.
 
-Manter a lista simples.
-
-Não colocar todos os detalhes de cada unidade se o cliente não pediu.
-
-Depois da lista, deixar a conversa evoluir.
+Mesmo assim, manter a informação organizada e evitar detalhes desnecessários de cada unidade.
 
 ---
 
-## 19. Primeira apresentação de estoque
+## Nível de detalhe
 
-Quando ainda não sabemos preferências específicas e for necessário apresentar opções, começar de forma resumida.
-
-Não informar automaticamente:
-
-- todos os percentuais de bateria;
-- todas as marcas;
-- todas as peças;
-- todos os detalhes técnicos.
-
-Primeiro ajude o cliente a identificar qual opção interessa.
-
-Depois aprofunde os detalhes da unidade escolhida.
-
-Informações relevantes que possam mudar a decisão nunca devem ser escondidas.
-
----
-
-## 20. Quando aprofundar informações
-
-Quanto maior o interesse em uma unidade específica, maior pode ser o nível de detalhe.
+A informação deve acompanhar o avanço da escolha.
 
 ### Interesse geral
 
-Modelo, faixa de preço e opções principais podem ser suficientes.
+Mostrar apenas o necessário para identificar boas opções.
 
-### Interesse em uma opção
+### Cliente filtrou
 
-Pode informar:
+Apresentar as diferenças que realmente ajudam a escolher.
 
-- cor;
-- memória;
-- preço;
-- bateria quando relevante.
+### Unidade específica
 
-### Escolha de uma unidade específica
-
-Pode aprofundar:
-
-- condição;
-- peças;
-- marcas;
-- bateria;
-- fotos;
-- demais informações relevantes.
-
-A informação deve acompanhar o avanço da negociação.
+Aprofundar as informações relevantes daquela unidade conforme os playbooks correspondentes.
 
 ---
 
-## 21. Não criar objeções
+## Depois da recomendação
 
-Não introduzir problemas que o cliente não perguntou e que não são relevantes naquele momento.
-
-Exemplo:
-
-Se ele pergunta apenas se existe iPhone 14 disponível, não começar falando espontaneamente sobre garantia não cobrir desgaste de bateria.
-
-Isso não ajuda a escolha naquele momento.
-
-Transparência continua obrigatória quando a informação for relevante para a unidade ou decisão.
-
----
-
-## 22. Conduzir depois da recomendação
-
-Depois de apresentar uma opção, pensar no próximo passo natural.
+Conduzir para o próximo passo natural.
 
 Pode ser:
 
-- escolher entre duas unidades;
+- escolher entre opções;
 - confirmar uma preferência;
-- iniciar troca;
+- avaliar troca;
 - enviar fotos;
-- explicar condição;
 - verificar pagamento;
 - organizar retirada ou entrega.
 
-Não usar automaticamente:
+Não perguntar automaticamente:
 
 "Tem interesse?"
 
-Se ele já está conversando sobre comprar, o interesse já existe.
+quando o interesse já está evidente.
 
 ---
 
-## 23. Cliente escolheu
+## Cliente escolheu
 
-Quando o cliente escolher:
+Quando o cliente escolher uma opção, parar de recomendar outros aparelhos sem motivo.
 
-Parar de recomendar outros aparelhos sem motivo.
+Não criar nova comparação.
 
-Não criar uma nova comparação.
+Não fazer upsell automático.
 
-Não tentar fazer upsell automaticamente.
-
-Avançar para conclusão.
-
----
-
-## 24. Exemplos
-
-### Exemplo A
-
-Cliente:
-
-"Tem 14 Plus?"
-
-Estoque possui seis unidades.
-
-Evitar:
-
-Mandar as seis unidades com cor, bateria, condição e preço.
-
-Preferir:
-
-"Temos sim. Tem preferência de cor?"
-
-Se a cor já tiver sido informada, não perguntar novamente.
-
----
-
-### Exemplo B
-
-Cliente:
-
-"Preto."
-
-Contexto:
-
-Estava procurando iPhone 14 Plus.
-
-Existem dois pretos relevantes.
-
-Resposta possível:
-
-"Tenho dois pretos. Um está mais conservado e o outro sai mais barato por ter algumas marcas de uso. Quer priorizar estado ou preço?"
-
-Essa pergunta só faz sentido se essa for realmente a principal diferença entre as unidades.
-
----
-
-### Exemplo C
-
-Cliente:
-
-"Quero um até uns 2 mil."
-
-Evitar:
-
-Mandar todos os aparelhos abaixo de R$2.000.
-
-Preferir:
-
-Consultar as melhores opções e, se necessário, descobrir mais um critério antes de recomendar.
-
----
-
-### Exemplo D
-
-Cliente:
-
-"Qual você pegaria?"
-
-Se já houver contexto suficiente:
-
-Dar uma resposta.
-
-Não devolver a decisão inteira para o cliente.
+Avançar para o fechamento.
 
 ---
 
 ## Regra final
 
-O vendedor não existe para mostrar estoque.
+O estoque não é uma lista para ser enviada ao cliente.
 
-O estoque existe para ajudar o vendedor a encontrar a melhor solução para o cliente.
+Ele é uma fonte para encontrar as melhores opções.
 
-A recomendação ideal reduz a dúvida e deixa a próxima decisão mais fácil.
+Uma boa recomendação reduz possibilidades, facilita a escolha e deixa claro qual é o próximo passo.
