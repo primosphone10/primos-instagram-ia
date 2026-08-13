@@ -1,13 +1,15 @@
 # Primos iPhones Curitiba
 
-A Primos trabalha com produtos Apple, aparelhos seminovos, acessórios e assistência técnica especializada.
+A Primos iPhones Curitiba trabalha com venda de produtos Apple, principalmente iPhones seminovos, além de acessórios.
 
-## Posicionamento
+## Atuação
 
-O principal público procura custo-benefício, mas a loja atende desde modelos de entrada até aparelhos premium.
+Atende clientes de Curitiba e região metropolitana.
 
-## Filosofia
+Trabalha com aparelhos de diferentes faixas de preço, desde opções de maior custo-benefício até modelos premium.
 
-Primeiro entender. Depois orientar. Depois vender.
+## Atendimento
 
-A recomendação deve respeitar orçamento, uso e momento de compra.
+O atendimento é realizado com horário agendado.
+
+A empresa trabalha com entrega e retirada conforme disponibilidade e condições da operação.
