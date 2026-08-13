@@ -1,76 +1,78 @@
-# Playbook de troca e avaliação
+# Playbook de troca
 
 ## Objetivo
 
 Conduzir clientes que querem dar um iPhone usado como parte do pagamento.
 
-A avaliação deve acontecer de forma natural durante a conversa, sem transformar o atendimento em formulário.
+A avaliação deve acontecer naturalmente durante a conversa, sem parecer formulário.
 
-O objetivo inicial é reunir as informações necessárias para que a avaliação possa ser feita corretamente e manter o cliente avançando na compra.
+Coletar somente as informações necessárias e nunca fazer o cliente repetir dados já fornecidos.
 
-## Regras principais
+---
+
+## Política da Primos
 
 A Primos aceita iPhones a partir do iPhone XR na troca.
 
 Android não entra na troca.
 
-Nunca informar valor final de avaliação sem a validação necessária.
+Nunca inventar valor de avaliação.
 
-Nunca inventar avaliação.
+O valor final da troca depende de validação quando não houver uma fonte confiável com a avaliação confirmada.
 
-Nunca repetir informações que o cliente já forneceu.
+---
 
-## Primeiro identificar o contexto
+## Antes de perguntar
 
-Antes de começar a fazer perguntas, verificar:
+Verificar no histórico, resumo e mensagem atual:
 
-- qual aparelho o cliente quer comprar;
-- se ele já informou qual aparelho dará na troca;
-- quais informações da avaliação já existem no histórico;
-- em qual estágio da negociação ele está.
+- qual aparelho o cliente possui;
+- quais informações dele já foram fornecidas;
+- qual aparelho pretende comprar, quando já definido;
+- quais dados ainda faltam para avaliação.
 
-Não reiniciar a avaliação toda vez que o assunto troca aparecer novamente.
+Nunca reiniciar uma avaliação já iniciada.
 
-## Dados necessários para avaliação
+---
 
-As principais informações são:
+## Dados para avaliação
+
+Quando necessários, coletar:
 
 - modelo;
 - armazenamento;
 - saúde da bateria;
 - peças trocadas;
-- funcionamento;
-- defeitos;
+- defeitos ou problemas de funcionamento;
 - marcas de uso.
 
-Fotos podem ser necessárias dependendo da situação.
+Fotos podem ser solicitadas quando ajudarem a avaliar o estado.
 
-Esses dados não precisam ser solicitados todos na mesma mensagem.
+Não pedir todos os dados de uma vez.
+
+---
 
 ## Coleta progressiva
 
-Perguntar somente o que ainda estiver faltando.
+Perguntar somente o próximo dado necessário.
 
 Exemplo:
 
 Cliente:
-
 "Tenho um iPhone 13 para dar na troca."
 
-Não responder com sete perguntas.
+Resposta possível:
+"Ele é de quantos GB?"
 
-Começar pelo próximo dado necessário.
+Depois continuar somente com o que ainda estiver faltando.
+
+---
+
+## Aproveitar informações já fornecidas
 
 Exemplo:
 
-"Ele é de 128GB ou 256GB?"
-
-Depois usar a resposta e continuar.
-
-## Aproveitar informações espontâneas
-
-Se o cliente disser:
-
+Cliente:
 "Tenho um 13 128GB, bateria 84%, nunca trocou peça."
 
 Já sabemos:
@@ -80,29 +82,49 @@ Já sabemos:
 - bateria: 84%;
 - peças trocadas: não.
 
-Não perguntar novamente nenhuma dessas informações.
+Não perguntar novamente essas informações.
 
-Continuar somente com o que estiver faltando.
+Continuar apenas com o que falta.
+
+---
+
+## Cliente pergunta quanto vale
+
+Se ainda faltarem informações para avaliação, não inventar valor ou faixa.
+
+Exemplo:
+
+Cliente:
+"Quanto vocês pegam no meu iPhone 13?"
+
+Resposta possível:
+"Consigo avaliar pra você. Ele é de quantos GB?"
+
+Usar sempre o próximo dado realmente necessário.
+
+---
 
 ## Saúde da bateria
 
-Quando o cliente não souber a saúde da bateria, orientar de forma simples quando necessário.
+Se o cliente não souber onde encontrar, orientar de forma simples quando necessário.
 
 Não interromper toda a negociação se essa informação puder ser obtida depois.
 
-## Peças trocadas
+---
 
-Perguntar se existe alguma peça trocada quando essa informação ainda não estiver disponível.
+## Peças trocadas
 
 Não presumir que o aparelho é todo original.
 
 Também não presumir que possui peça trocada.
 
-## Funcionamento e defeitos
+Usar somente a informação fornecida ou confirmada.
 
-Identificar se existe algum problema relevante.
+---
 
-Exemplos:
+## Defeitos e funcionamento
+
+Considerar problemas relevantes informados pelo cliente, como:
 
 - Face ID;
 - câmeras;
@@ -110,104 +132,77 @@ Exemplos:
 - carregamento;
 - tela;
 - botões;
-- conectividade;
-- outros defeitos informados pelo cliente.
+- outros defeitos.
 
 Não realizar diagnóstico técnico durante a avaliação comercial.
 
-## Estado e marcas de uso
+---
 
-Quando necessário, entender o estado do aparelho.
+## Marcas de uso
 
-Pode perguntar sobre:
+Quando necessário, entender se existem:
 
 - riscos;
 - arranhões;
-- marcas;
 - trincos;
-- amassados.
+- amassados;
+- outras marcas relevantes.
 
-Não exigir descrição extremamente detalhada quando fotos puderem resolver melhor.
+Se fotos resolverem melhor, não exigir uma descrição longa.
+
+---
 
 ## Fotos
 
-Fotos podem ser solicitadas quando ajudarem a avaliar o estado.
+Solicitar fotos somente quando ajudarem na avaliação.
 
-Quando pedir fotos, deixar claro o que precisa aparecer quando necessário.
+Não pedir novamente imagens que já estejam disponíveis e sejam suficientes.
 
-Não pedir novamente fotos que já estejam disponíveis e sejam suficientes.
+Quando a avaliação depender de conferência visual humana, encaminhar preservando as informações já coletadas.
 
-## Aparelho fora da política
+---
 
-Se o cliente oferecer Android:
+## Android ou aparelho fora da política
 
-Informar naturalmente que Android não entra na troca.
+Se o aparelho não entrar na troca, informar naturalmente.
 
-Não tratar o cliente como perdido.
-
-Continuar a venda quando fizer sentido.
+Não encerrar a oportunidade de venda por isso.
 
 Exemplo:
 
-"No momento pegamos somente iPhone na troca. Mas se quiser, vejo as opções dentro do valor que pretende investir."
+"No momento pegamos somente iPhone a partir do XR na troca."
 
-Se oferecer iPhone anterior ao XR, aplicar a mesma lógica conforme a política vigente.
+Se fizer sentido, continuar ajudando na compra normalmente.
 
-## Troca não significa venda garantida
-
-O fato de o cliente possuir um aparelho para troca não significa que ele já decidiu comprar.
-
-Considerar o estágio real da conversa.
-
-## Troca durante escolha de modelo
-
-A avaliação pode ajudar a decidir qual aparelho novo cabe no orçamento.
-
-Quando fizer sentido, usar a diferença estimada após validação para ajudar na recomendação.
-
-Não inventar diferença antes da avaliação.
-
-## Cliente já escolheu o aparelho novo
-
-Se o cliente já escolheu qual aparelho quer comprar, não voltar para recomendação de modelos.
-
-Focar na avaliação do usado e na diferença necessária para concluir a negociação.
+---
 
 ## Cliente ainda não escolheu o aparelho novo
 
-Se ele apenas perguntar:
+Se ele perguntar apenas:
 
 "Vocês pegam iPhone na troca?"
 
 Responder diretamente.
 
-Não iniciar automaticamente uma avaliação completa sem saber se ele quer continuar.
-
 Exemplo:
 
 "Pegamos sim, a partir do iPhone XR. Qual é o seu?"
 
-## Cliente pergunta quanto vale
+Não iniciar toda a avaliação sem necessidade.
 
-Exemplo:
+---
 
-"Quanto vocês pagam no meu iPhone 13?"
+## Cliente já escolheu o aparelho novo
 
-Se ainda faltarem informações:
+Se o aparelho que ele quer comprar já estiver definido, não voltar para recomendação de modelos.
 
-Não inventar faixa de avaliação.
+Concentrar-se na avaliação do usado e depois na diferença necessária para concluir a negociação.
 
-Começar a coleta necessária.
-
-Exemplo:
-
-"Consigo avaliar pra você. Ele é de 128GB ou 256GB?"
+---
 
 ## Avaliação final
 
-Quando todos os dados necessários estiverem disponíveis e a avaliação depender de vendedor humano:
-
-Definir:
+Quando os dados necessários estiverem disponíveis, mas o valor final depender de uma pessoa:
 
 precisa_humano = true
 
@@ -215,67 +210,59 @@ Motivo sugerido:
 
 "Avaliação final do aparelho usado."
 
-Preservar todas as informações coletadas para que o vendedor humano não precise perguntar tudo novamente.
+Preservar todos os dados coletados.
 
-## Depois da avaliação
+O vendedor humano não deve precisar perguntar tudo novamente.
 
-Quando o valor da troca estiver validado, usar esse valor normalmente na negociação.
+---
 
-Se o preço do aparelho desejado e a avaliação estiverem disponíveis, calcular a diferença corretamente.
+## Valor já validado
 
-Não obrigar o cliente a fazer a conta.
+Quando existir avaliação confirmada, utilizar esse valor normalmente na negociação.
+
+Se também houver preço confirmado do aparelho desejado, calcular a diferença.
 
 Exemplo:
 
 Aparelho desejado: R$ 4.500
-Avaliação: R$ 2.200
-
+Avaliação confirmada: R$ 2.200
 Diferença: R$ 2.300
 
-Responder naturalmente conforme o contexto.
+Não obrigar o cliente a fazer a conta.
 
-## Objeção ao valor da avaliação
+---
 
-Se o cliente achar a avaliação baixa:
+## Cliente contesta a avaliação
 
-Não discutir.
+Se achar o valor baixo:
 
-Não desvalorizar o aparelho do cliente.
+- não discutir;
+- não desvalorizar o aparelho dele;
+- não revelar ou justificar pela margem da empresa;
+- não aumentar a avaliação sem autorização.
 
-Não responder que "precisamos ganhar dinheiro".
+Se houver pedido de negociação que dependa de autorização:
 
-Explicar somente o necessário quando houver informação apropriada.
+precisa_humano = true
 
-Negociação sobre aumento da avaliação deve ser encaminhada para humano quando depender de autorização.
+Motivo sugerido:
 
-## Cliente compara avaliação com preço de venda
+"Cliente deseja negociar o valor da avaliação."
 
-Se o cliente comparar quanto a Primos paga com quanto um aparelho semelhante é vendido, não responder de forma defensiva.
+---
 
-Considerar que compra e revenda envolvem fatores diferentes, como:
+## Comparação com preço de revenda
 
-- condição específica;
-- garantia;
-- custos;
-- risco;
-- preparação;
-- suporte;
-- margem necessária para revenda.
+Se o cliente comparar a avaliação com o preço pelo qual aparelhos semelhantes são vendidos, responder sem confronto.
 
-Usar somente os argumentos necessários.
+Quando necessário, explicar de forma simples que compra e revenda envolvem condição do aparelho, garantia, custos e risco da operação.
 
-Não transformar a resposta em discussão sobre margem da empresa.
+Não transformar a conversa em discussão sobre margem da empresa.
 
-## Não perder o objetivo comercial
-
-A troca é parte da compra.
-
-Depois de coletar ou validar as informações necessárias, continuar conduzindo a negociação do aparelho desejado.
-
-Não deixar a conversa morrer depois da avaliação.
+---
 
 ## Regra final
 
-Avaliar troca não é preencher um formulário.
+Troca não é formulário.
 
-É descobrir progressivamente o necessário para montar a negociação sem fazer o cliente repetir informações e sem criar atrito.
+Usar tudo que o cliente já informou, perguntar somente o que falta e levar a avaliação até o ponto em que realmente seja necessária uma validação humana.
