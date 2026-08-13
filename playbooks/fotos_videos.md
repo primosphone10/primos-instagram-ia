@@ -2,440 +2,178 @@
 
 ## Objetivo
 
-Atender pedidos de fotos e vídeos dos aparelhos de forma natural e comercial.
+Usar fotos e vídeos para ajudar o cliente a avaliar uma unidade específica e avançar na compra.
 
-Fotos e vídeos devem ajudar o cliente a conhecer melhor uma unidade específica e avançar na decisão.
+Nunca inventar que uma mídia está disponível.
 
-Nunca inventar que existe foto ou vídeo disponível.
-
-Nunca enviar ou prometer mídia de uma unidade diferente da que está sendo negociada.
+Nunca tratar foto ou vídeo de outra unidade como se fosse do aparelho negociado.
 
 ---
 
-## Princípio principal
+## Princípio
 
-Foto e vídeo de seminovo pertencem à unidade específica.
+Aparelhos do mesmo modelo, memória e cor podem ter diferenças de:
 
-Dois aparelhos do mesmo modelo, memória e cor podem possuir:
+- bateria;
+- estado;
+- marcas de uso;
+- peças;
+- preço.
 
-- saúde da bateria diferente;
-- marcas de uso diferentes;
-- condição diferente;
-- peças diferentes;
-- preço diferente.
-
-Por isso, sempre preservar a relação entre a mídia e o aparelho correto.
+Por isso, preservar sempre a relação entre a mídia e a unidade correta.
 
 ---
 
-## 1. Cliente pede foto de aparelho específico
+## Usar o contexto
 
-Exemplo:
+Quando o cliente disser:
 
 "Tem foto desse?"
 
-Antes de perguntar qualquer coisa, usar o contexto.
+"Consegue mandar vídeo?"
 
-Se já estiver claro qual unidade está sendo negociada, não perguntar novamente:
+"Quero ver esse."
 
-"De qual aparelho?"
+Identificar pelo histórico qual aparelho está sendo negociado.
 
-Identificar a unidade pelo histórico.
-
----
-
-## 2. Cliente pede foto de um modelo
-
-Exemplo:
-
-"Tem foto do 14 Plus preto?"
-
-Se existir apenas uma unidade compatível, considerar essa unidade.
-
-Se existirem várias unidades pretas diferentes e a mídia precisar ser específica, identificar primeiro qual delas interessa.
-
-Não mandar foto aleatória de outro 14 Plus preto apenas porque é o mesmo modelo e cor.
+Não perguntar novamente qual modelo ou unidade quando isso já estiver claro.
 
 ---
 
-## 3. Existem várias unidades semelhantes
+## Várias unidades semelhantes
 
-Quando houver várias unidades do mesmo modelo, memória e cor, usar as diferenças relevantes para identificar qual o cliente quer conhecer.
+Se existirem várias unidades compatíveis e ainda não estiver claro qual faz sentido mostrar, ajudar o cliente a filtrar antes de solicitar mídia.
 
-Exemplo:
+Usar diferenças comercialmente relevantes, como:
 
-Existem dois iPhone 14 Plus pretos:
-
-- um mais conservado;
-- outro mais barato com marcas de uso.
-
-Pode conduzir primeiro a escolha entre eles.
-
-Depois solicitar ou enviar a mídia da unidade escolhida.
+- preço;
+- estado;
+- bateria.
 
 Não pedir código interno ao cliente.
 
----
-
-## 4. Código interno
-
-O código interno pode ser usado pela automação e pela equipe para identificar a unidade.
-
-Nunca exigir que o cliente saiba ou informe esse código.
-
-Nunca transformar o atendimento em:
-
-"Qual código do aparelho você quer?"
-
-O cliente identifica aparelhos por características comerciais.
+O código pode ser usado internamente pela automação e equipe, mas o cliente identifica o aparelho pelas características comerciais.
 
 ---
 
-## 5. Mídia disponível
+## Foto ou vídeo disponível
 
-Quando houver informação confiável de que a mídia específica daquela unidade está disponível, ela pode ser utilizada conforme o fluxo.
+Somente afirmar que possui a mídia quando isso estiver confirmado.
 
-Não afirmar:
-
-"Tenho foto."
-
-"Tenho vídeo."
-
-sem essa confirmação.
-
----
-
-## 6. Mídia não disponível
-
-Quando não houver foto ou vídeo pronto, não inventar.
-
-Pode informar naturalmente que será verificado ou providenciado.
-
-Exemplo:
-
-"Vou ver se tenho um vídeo desse aqui, se não faço um e te mando."
-
-Somente usar essa lógica quando a operação realmente permitir produzir o conteúdo.
-
----
-
-## 7. Não prometer envio imediato
-
-Não dizer:
+Se a mídia não estiver acessível à IA ou precisar ser localizada, não dizer:
 
 "Já vou te mandar."
 
-se a IA não possui acesso ao arquivo ou se alguém ainda precisa produzir a mídia.
+Se for necessário alguém localizar ou produzir o conteúdo, encaminhar para humano.
 
-Diferenciar:
+Resposta possível:
 
-- mídia já disponível;
-- mídia precisa ser localizada;
-- mídia precisa ser produzida.
+"Vou ver se tenho desse aqui, se não faço e te mando."
 
 ---
 
-## 8. Quando depender de humano
+## Solicitação específica
 
-Se alguém precisar:
-
-- localizar o aparelho;
-- tirar foto;
-- gravar vídeo;
-- conferir uma marca;
-- mostrar um detalhe específico;
-
-a solicitação precisa chegar ao humano.
-
-Definir:
-
-precisa_humano = true
-
-Motivo sugerido:
-
-"Cliente solicita foto/vídeo específico do aparelho."
-
-Preservar qual unidade ou configuração o cliente quer ver.
-
----
-
-## 9. Cliente pede vídeo
-
-Vídeo normalmente indica interesse maior na unidade.
-
-Não usar isso como motivo para reiniciar a descoberta.
-
-Se o aparelho já estiver definido, focar naquele aparelho.
-
-Não oferecer outros modelos sem necessidade.
-
----
-
-## 10. Cliente pede mais fotos
-
-Se ele já recebeu fotos e pede:
-
-"Tem mais?"
-
-Não enviar novamente as mesmas informações sobre modelo, preço e bateria sem necessidade.
-
-Entender se ele quer:
-
-- mais ângulos;
-- estado lateral;
-- tela;
-- traseira;
-- câmeras;
-- alguma marca específica.
-
-Se necessário, fazer uma única pergunta curta.
-
----
-
-## 11. Cliente quer ver marcas de uso
-
-Quando o cliente perguntar:
-
-"Tem muitos riscos?"
-
-Se houver descrição confiável no estoque, responder.
-
-Se fotos forem mais adequadas para demonstrar a condição, pode oferecer ou providenciar.
-
-Nunca minimizar uma marca relevante apenas para vender.
-
----
-
-## 12. Cliente pede foto de uma marca específica
-
-Exemplo:
-
-"Consegue mostrar esse risco?"
-
-Esse pedido é específico.
-
-Não mandar apenas foto genérica do aparelho.
-
-Quando depender de alguém produzir a imagem:
-
-precisa_humano = true
-
-Preservar exatamente o detalhe solicitado.
-
----
-
-## 13. Cliente pede foto da bateria
-
-Se ele estiver pedindo print da saúde da bateria:
-
-Entender que está pedindo comprovação daquela unidade.
-
-Não mandar percentual de outra unidade.
-
-Se o estoque já possui o percentual, pode informar o valor.
-
-Se ele quiser a foto da tela mostrando o percentual, tratar como solicitação de mídia específica.
-
----
-
-## 14. Cliente pede foto de peças ou informações do sistema
+Quando o cliente pedir algo específico, preservar exatamente o pedido.
 
 Exemplos:
 
-- saúde da bateria;
-- peças e histórico de serviço;
-- armazenamento;
-- número do modelo;
-- informações do aparelho.
+- mostrar laterais;
+- mostrar uma marca;
+- mostrar tela;
+- mostrar traseira;
+- mostrar câmeras;
+- mostrar saúde da bateria.
 
-Nunca inventar print.
+Não substituir um pedido específico por uma foto genérica.
 
-Se for necessária comprovação visual, encaminhar para produção da mídia específica.
+Quando depender de ação humana:
 
-Não enviar dados sensíveis desnecessários do aparelho.
+precisa_humano = true
 
----
+Motivo deve indicar o que precisa ser mostrado.
 
-## 15. Cliente pergunta se é todo original
+Exemplo:
 
-Responder conforme os dados confiáveis daquela unidade.
-
-Não usar foto como substituto de uma informação que já existe no estoque.
-
-Se houver peça trocada registrada, informar quando relevante.
-
-Nunca afirmar que é todo original sem fonte confiável.
+"Cliente solicita vídeo do aparelho mostrando as laterais e marcas de uso."
 
 ---
 
-## 16. Foto não substitui transparência
+## Estado do aparelho
 
-Não esconder uma condição relevante esperando que o cliente perceba pela foto.
+Quando o cliente quiser avaliar conservação, a mídia pode complementar as informações do estoque.
 
-Se existe informação importante registrada, como peça trocada ou dano relevante, ela deve ser informada quando fizer parte da decisão.
+Não esconder uma condição relevante esperando que ele perceba pela foto.
 
-A mídia complementa a informação.
+Se houver informação importante registrada, informar conforme o playbook de estado do aparelho.
 
 ---
 
-## 17. Cliente escolhe depois de ver a mídia
+## Cliente recebeu a mídia
+
+Depois que fotos ou vídeos já foram enviados, considerar isso no contexto.
 
 Exemplo:
 
 "Gostei desse."
 
-Usar o contexto para identificar a unidade mostrada.
-
-Não perguntar:
-
-"Qual deles?"
-
-quando só uma unidade estava sendo apresentada.
+Se estiver claro qual unidade foi mostrada, não perguntar novamente qual aparelho.
 
 Avançar para o próximo passo da venda.
 
 ---
 
-## 18. Cliente rejeita pela aparência
+## Cliente rejeita pela aparência
 
 Exemplo:
 
 "Esse está muito riscado."
 
-Não discutir.
+Não discutir nem minimizar sem evidência.
 
-Não tentar convencer o cliente de que as marcas são pequenas se isso não estiver claro.
+Se houver outra unidade mais adequada, procurar uma alternativa conforme a preferência demonstrada.
 
-Consultar outras unidades compatíveis.
-
-Pode apresentar uma opção mais conservada quando existir.
+Não voltar a perguntar o que ele prioriza quando isso já ficou claro.
 
 ---
 
-## 19. Cliente quer outra cor depois da foto
+## Não gerar trabalho desnecessário
 
-Se ele mudar a preferência:
+Quando existem muitas unidades, normalmente é melhor ajudar o cliente a reduzir as opções antes de pedir fotos ou vídeos de todas.
 
-Considerar a preferência mais recente.
+Não solicitar produção de mídia de vários aparelhos quando uma pergunta simples puder identificar uma ou duas opções realmente relevantes.
 
-Não insistir na unidade anterior.
-
-Consultar opções da nova cor.
+Se o cliente pedir explicitamente para ver várias unidades, considerar o pedido sem criar obstáculos desnecessários.
 
 ---
 
-## 20. Cliente quer comparar duas unidades
+## Fotos enviadas pelo cliente
 
-Quando fotos ou vídeos de duas unidades ajudarem a decisão, isso pode ser útil.
+Identificar pelo contexto a finalidade da mídia.
 
-Não ampliar a comparação para todo o estoque.
+Ela pode estar relacionada a:
 
-Manter foco nas unidades que realmente estão sendo consideradas.
+- avaliação de troca;
+- pós-venda;
+- condição do aparelho do cliente.
 
----
+Não tratar automaticamente como mídia de um aparelho do estoque.
 
-## 21. Não mandar mídia demais
-
-Mais fotos não significam necessariamente melhor atendimento.
-
-Se algumas imagens já mostram claramente:
-
-- frente;
-- traseira;
-- laterais;
-- condição;
-
-não é necessário despejar dezenas de arquivos sem o cliente pedir.
+Usar o playbook correspondente.
 
 ---
 
-## 22. Vídeo como ferramenta de venda
+## Estoque atual
 
-Quando o cliente demonstra preocupação com estado ou conservação, um vídeo específico pode reduzir dúvida.
+Antes de conduzir o cliente para uma unidade específica, considerar sua disponibilidade atual.
 
-Usar mídia para responder à preocupação real.
+Se ela ficar indisponível enquanto o cliente aguarda mídia, não fingir que continua disponível e não substituir por fotos de outra unidade como se fosse a mesma.
 
-Não oferecer vídeo em toda conversa automaticamente.
-
----
-
-## 23. Fotos antes de escolher unidade
-
-Quando existem muitas unidades, normalmente é mais eficiente reduzir as opções primeiro.
-
-Evitar produzir fotos de cinco aparelhos quando uma pergunta simples de preferência poderia reduzir para um ou dois.
-
-Isso economiza trabalho da equipe e facilita a decisão do cliente.
+Procurar a alternativa mais próxima quando fizer sentido.
 
 ---
 
-## 24. Cliente pede fotos de todas
-
-Se o cliente pedir explicitamente fotos de todas as opções:
-
-Avaliar quantas unidades realmente estão sendo consideradas.
-
-Se forem muitas, pode ser mais eficiente ajudar a filtrar primeiro.
-
-Não negar o pedido sem motivo, mas também não gerar trabalho operacional desnecessário quando uma escolha simples resolver.
-
----
-
-## 25. Estoque mudou antes do envio
-
-Antes de produzir ou enviar mídia de uma unidade, a automação deve considerar a situação atual do estoque quando possível.
-
-Não conduzir o cliente para uma unidade já vendida ou reservada.
-
----
-
-## 26. Unidade vendida enquanto aguardava mídia
-
-Se a unidade ficar indisponível:
-
-Não fingir que continua disponível.
-
-Informar naturalmente e procurar a alternativa mais próxima.
-
-Não mandar foto de outro aparelho como se fosse o mesmo.
-
----
-
-## 27. Fotos recebidas do cliente
-
-Quando o cliente enviar fotos do próprio aparelho para avaliação de troca ou assistência:
-
-Usar essas fotos dentro do contexto correspondente.
-
-Não tratar automaticamente como foto de aparelho que ele quer comprar.
-
-Identificar a intenção pelo histórico.
-
----
-
-## 28. Foto para avaliação de troca
-
-Quando o cliente enviar fotos do aparelho usado:
-
-Considerar as informações visíveis junto com os dados já coletados.
-
-Não pedir novamente uma descrição de marcas que as fotos já permitem compreender suficientemente.
-
-Se ainda faltar alguma informação não visível, perguntar somente essa.
-
----
-
-## 29. Foto para assistência
-
-Quando a foto estiver relacionada a defeito ou dano:
-
-Usar para triagem.
-
-Não transformar uma foto em diagnóstico definitivo quando a causa exigir avaliação técnica.
-
----
-
-## 30. Transferência para humano
+## Transferência
 
 Quando for necessária ação humana, preservar:
 
@@ -443,86 +181,11 @@ Quando for necessária ação humana, preservar:
 - armazenamento;
 - cor;
 - unidade quando identificada;
-- preço quando relevante;
 - mídia solicitada;
-- detalhe que precisa aparecer;
-- contexto da negociação.
+- detalhe que o cliente quer ver;
+- contexto relevante da negociação.
 
-Exemplo de motivo interno:
-
-"Cliente quer vídeo do iPhone 14 Plus preto mostrando as laterais e marcas de uso."
-
-Isso é melhor do que apenas:
-
-"Cliente quer vídeo."
-
----
-
-## Exemplos
-
-### Exemplo A
-
-Cliente:
-
-"Tem foto?"
-
-Contexto:
-
-Está negociando uma única unidade específica.
-
-Não perguntar novamente qual aparelho.
-
-Providenciar a mídia correspondente conforme o fluxo.
-
----
-
-### Exemplo B
-
-Cliente:
-
-"Tem foto do 13 preto?"
-
-Existem três unidades pretas.
-
-Antes de gerar trabalho para a equipe, identificar qual unidade realmente faz sentido para o cliente quando necessário.
-
----
-
-### Exemplo C
-
-Cliente:
-
-"Consegue mostrar esse risco?"
-
-Encaminhar a solicitação específica.
-
-Não responder apenas:
-
-"Ele está em bom estado."
-
----
-
-### Exemplo D
-
-Cliente:
-
-"Gostei desse do vídeo."
-
-Usar o contexto do vídeo para identificar a unidade e avançar para fechamento.
-
----
-
-### Exemplo E
-
-Cliente:
-
-"Esse está muito marcado, tem algum mais inteiro?"
-
-Agora a prioridade está clara.
-
-Consultar uma unidade mais conservada.
-
-Não perguntar novamente o que ele prioriza.
+O humano deve saber exatamente o que precisa produzir ou localizar.
 
 ---
 
@@ -530,4 +193,4 @@ Não perguntar novamente o que ele prioriza.
 
 Foto e vídeo devem reduzir dúvida e aproximar o cliente da decisão.
 
-Sempre relacionar a mídia à unidade correta, evitar trabalho desnecessário para a equipe e nunca prometer um conteúdo que ainda não está disponível.
+Usar sempre a mídia da unidade correta, aproveitar o contexto e evitar gerar trabalho desnecessário para a equipe.
