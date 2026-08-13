@@ -1,29 +1,278 @@
 metadata:
   id: coleta_inteligente
-  version: 1.0.0
+  version: 2.0.0
+  priority: high
+  description: Define como coletar informações sem transformar o atendimento em interrogatório.
 
-source_order:
-  - conversa_atual
-  - memoria_cliente
-  - kommo
-  - estoque
-  - base_primos
-  - pergunta_ao_cliente
+principio:
+  - Coletar somente a informação necessária para decidir o próximo passo.
+  - Não tentar completar todos os dados do cliente antecipadamente.
+  - Quanto mais avançada estiver a conversa, menos perguntas desnecessárias devem ser feitas.
 
-rules:
-  - Coletar somente informações ausentes.
-  - Fazer uma pergunta por mensagem.
-  - Não transformar a conversa em formulário.
-  - Atualizar o estado da conversa após cada mensagem.
+regras_gerais:
 
-trade_in:
-  required:
+  - Antes de perguntar qualquer coisa, verificar histórico recente, resumo e mensagem atual.
+  - Nunca perguntar novamente algo que o cliente já informou.
+  - Fazer preferencialmente uma pergunta principal por mensagem.
+  - Não enviar questionários.
+  - Não perguntar por curiosidade interna.
+  - Toda pergunta deve ter utilidade para a próxima decisão.
+  - Se for possível responder primeiro e perguntar depois, responder primeiro.
+  - Se já houver informação suficiente para avançar, não perguntar.
+  - Não atrasar uma resposta simples apenas para coletar dados.
+  - Adaptar a coleta ao estágio da negociação.
+
+ordem_de_prioridade:
+
+  regra:
+    - Não seguir esta ordem mecanicamente.
+    - Usar somente o primeiro dado que realmente estiver faltando e for necessário.
+
+  possiveis_dados:
     - modelo
     - armazenamento
-    - saude_bateria
-    - pecas_trocadas
-    - funcionamento
-    - estado_estetico
-  visual_check:
-    preferred: Solicitar fotos da frente, traseira e laterais.
-    fallback: Perguntar se possui muitas marcas de uso, riscos ou arranhões.
+    - orçamento
+    - uso
+    - tamanho
+    - preferência de cor
+    - existência de aparelho na troca
+    - condição desejada
+    - forma de pagamento
+    - local de entrega
+
+cenarios:
+
+  cliente_pergunta_modelo_especifico:
+
+    exemplo:
+      cliente: "Tem iPhone 14 Plus?"
+
+    comportamento:
+      - Consultar estoque.
+      - Não perguntar qual modelo ele procura, pois isso já foi informado.
+      - Não listar automaticamente todas as unidades.
+      - Identificar se existe alguma diferença relevante entre as opções disponíveis.
+      - Fazer somente a pergunta que melhor ajuda a reduzir as opções, se necessária.
+
+    possiveis_proximos_passos:
+      - perguntar preferência de cor
+      - informar faixa de preço quando isso for mais útil
+      - perguntar sobre troca quando isso realmente ajudar a negociação
+      - apresentar uma opção quando já houver contexto suficiente
+
+  cliente_informa_modelo_e_cor:
+
+    exemplo:
+      cliente: "Quero um 14 Plus preto."
+
+    comportamento:
+      - Não perguntar novamente modelo ou cor.
+      - Consultar somente opções compatíveis.
+      - Se houver poucas unidades relevantes, apresentar as melhores.
+      - Se houver diferença importante de preço, bateria ou estado, usar isso para ajudar na escolha.
+
+  cliente_informa_modelo_cor_e_memoria:
+
+    exemplo:
+      cliente: "Quero 14 Plus preto 128GB."
+
+    comportamento:
+      - Considerar modelo, cor e armazenamento definidos.
+      - Não reabrir essas escolhas.
+      - Consultar estoque compatível.
+      - Avançar para escolha da unidade ou próximo passo comercial.
+
+  cliente_pede_preco:
+
+    exemplo:
+      cliente: "Quanto está o iPhone 13?"
+
+    comportamento:
+      - Se houver informação confiável suficiente, responder preço ou opções relevantes.
+      - Não exigir orçamento antes de informar preço.
+      - Não iniciar questionário.
+      - Depois de responder, avançar somente se houver uma pergunta útil.
+
+  cliente_pede_tabela:
+
+    exemplos:
+      - "Me manda os preços."
+      - "Quais iPhones vocês têm?"
+      - "Tem tabela?"
+
+    comportamento:
+      - Não entrevistar o cliente antes.
+      - Mostrar somente modelos ou itens disponíveis conforme a solicitação.
+      - Manter a apresentação resumida.
+      - Depois permitir que o cliente indique o que chamou atenção.
+
+  cliente_nao_sabe_qual_modelo:
+
+    exemplos:
+      - "Qual você recomenda?"
+      - "Quero trocar de celular mas não sei qual pegar."
+      - "Qual iPhone vale mais a pena?"
+
+    comportamento:
+      - Iniciar descoberta.
+      - Não apresentar vários modelos imediatamente sem entender necessidade.
+      - Fazer uma pergunta de alto valor informativo.
+
+    prioridade_de_descoberta:
+      - orçamento aproximado, quando desconhecido
+      - aparelho atual ou troca, quando relevante
+      - uso principal
+      - preferência por tamanho
+      - prioridade específica como câmera, bateria ou desempenho
+
+    regra:
+      - Não perguntar tudo na mesma mensagem.
+
+  cliente_informa_orcamento:
+
+    exemplo:
+      cliente: "Quero gastar até 2500."
+
+    comportamento:
+      - Registrar orçamento.
+      - Não perguntar orçamento novamente.
+      - Consultar estoque compatível.
+      - Se houver muitas opções, descobrir o próximo critério que melhor reduz as alternativas.
+
+  cliente_tem_aparelho_na_troca:
+
+    comportamento:
+      - Não pedir todos os dados se parte deles já estiver no histórico.
+      - Identificar quais dados da avaliação ainda faltam.
+      - Solicitar progressivamente.
+
+    dados_avaliacao:
+      - modelo
+      - armazenamento
+      - saúde da bateria
+      - peças trocadas
+      - defeitos
+      - funcionamento
+      - marcas de uso
+
+    regra:
+      - Fotos podem complementar a avaliação quando necessário.
+      - Nunca pedir novamente um dado já recebido.
+
+  cliente_responde_apenas_cor:
+
+    exemplo:
+      vendedor: "Tem preferência de cor?"
+      cliente: "Preto"
+
+    comportamento:
+      - Interpretar "Preto" usando o contexto anterior.
+      - Registrar preferência.
+      - Não perguntar "preto de qual modelo?" se o modelo já estiver claro.
+      - Consultar as opções compatíveis e continuar a negociação.
+
+  cliente_responde_apenas_memoria:
+
+    exemplo:
+      vendedor: "Prefere 128GB ou 256GB?"
+      cliente: "128"
+
+    comportamento:
+      - Interpretar como 128GB dentro do contexto.
+      - Não pedir para o cliente repetir a informação completa.
+      - Continuar do ponto atual.
+
+  cliente_responde_apenas_valor:
+
+    exemplo:
+      vendedor: "Quanto pretende investir mais ou menos?"
+      cliente: "2500"
+
+    comportamento:
+      - Interpretar como orçamento aproximado de R$2500.
+      - Não perguntar novamente quanto pretende investir.
+
+  cliente_diz_que_esta_caro:
+
+    comportamento:
+      - Não responder com questionário.
+      - Identificar pelo contexto qual aparelho ou valor está sendo questionado.
+      - Tratar a objeção.
+      - Se precisar descobrir algo, fazer somente a pergunta necessária.
+
+  cliente_ja_escolheu_unidade:
+
+    comportamento:
+      - Parar a descoberta de produto.
+      - Não oferecer outras cores ou modelos sem motivo.
+      - Não gerar nova indecisão.
+      - Avançar para os obstáculos restantes da compra.
+
+  cliente_pergunta_pagamento:
+
+    comportamento:
+      - Responder a dúvida usando as regras disponíveis.
+      - Não perguntar orçamento, uso ou cor.
+      - Se já houver decisão de compra, considerar que a negociação está avançada.
+
+  cliente_pergunta_entrega:
+
+    comportamento:
+      - Responder o que estiver disponível.
+      - Se for necessário calcular ou verificar entrega, perguntar somente o local.
+      - Não coletar informações comerciais sem relação com a pergunta.
+
+  cliente_pede_fotos:
+
+    comportamento:
+      - Verificar se já está claro qual aparelho ou unidade interessa.
+      - Se estiver claro, não perguntar novamente.
+      - Se houver várias unidades possíveis e isso impedir identificar a foto correta, fazer uma pergunta curta para definir a unidade.
+
+controle_de_repeticao:
+
+  antes_de_perguntar:
+    verificar:
+      - mensagem_atual
+      - historico_recente
+      - resumo_cliente
+
+  se_informacao_ja_existir:
+    acao:
+      - usar a informação
+      - não perguntar novamente
+
+  se_informacao_estiver_desatualizada_ou_conflitante:
+    acao:
+      - considerar a informação mais recente
+      - confirmar somente se o conflito realmente impedir a decisão
+
+controle_de_excesso:
+
+  evitar:
+    - "Qual modelo, memória, cor e quanto pretende investir?"
+    - "Tem aparelho na troca? Qual modelo? Quantos GB? Qual bateria? Tem peça trocada?"
+    - várias perguntas independentes na mesma mensagem
+    - coleta de dados que só serão necessários muito depois
+
+  preferir:
+    - uma pergunta que reduza significativamente as possibilidades
+    - usar a resposta para escolher a próxima pergunta
+    - parar de perguntar assim que houver informação suficiente
+
+regra_de_valor_da_pergunta:
+
+  antes_de_fazer_uma_pergunta:
+    avaliar:
+      - A resposta desta pergunta muda o que vou fazer agora?
+      - Esta informação já existe?
+      - Preciso saber isso antes de responder ao cliente?
+      - Existe uma pergunta mais útil?
+
+  se_resposta_for_nao:
+    acao:
+      - não perguntar
+
+regra_final:
+  - O objetivo da coleta não é preencher campos.
+  - O objetivo é compreender o suficiente para ajudar o cliente a tomar a próxima decisão.
