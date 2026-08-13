@@ -1,582 +1,240 @@
-# Playbook de retomada de conversa
+# Playbook de retomada
 
 ## Objetivo
 
-Retomar conversas sem perder o contexto já construído e sem fazer o cliente repetir informações.
+Continuar conversas anteriores sem fazer o cliente começar novamente.
 
-A retomada deve considerar:
+Usar o contexto já construído e atualizar somente informações que possam ter mudado.
 
-- o que o cliente procurava;
-- qual aparelho estava sendo negociado;
+---
+
+## Princípio
+
+Antes de responder a uma retomada, considerar:
+
+- resumo da conversa;
+- histórico recente;
+- aparelho de interesse;
 - preferências já informadas;
-- aparelho na troca;
+- troca;
 - objeções;
-- dúvidas pendentes;
-- estágio da negociação;
-- última ação combinada.
+- decisões;
+- última pendência.
 
-Retomar não significa começar novamente.
-
----
-
-## 1. Princípio principal
-
-Antes de responder ou iniciar uma retomada:
-
-1. Ler o resumo da conversa.
-2. Considerar o histórico recente.
-3. Identificar o último ponto real da negociação.
-4. Verificar quais informações continuam válidas.
-5. Atualizar informações dinâmicas quando necessário.
-6. Continuar do ponto mais natural.
-
-Nunca fazer o cliente reconstruir uma conversa que já aconteceu.
+Retomar significa continuar do ponto certo, não reiniciar o atendimento.
 
 ---
 
-## 2. Informações que podem continuar válidas
+## Informações que podem continuar úteis
 
-Normalmente podem permanecer úteis:
+Manter como contexto, enquanto o cliente não indicar mudança:
 
 - modelo de interesse;
+- armazenamento;
 - preferência de cor;
-- preferência de armazenamento;
-- orçamento informado;
-- aparelho que possui;
-- informações do aparelho de troca;
-- preferência por pagamento;
-- necessidades de uso;
-- objeções anteriores;
-- decisões tomadas.
+- orçamento;
+- aparelho na troca;
+- dados já coletados da troca;
+- necessidades;
+- objeções;
+- decisões anteriores.
 
-Não assumir que continuam válidas se o cliente demonstrar mudança.
+A informação mais recente do cliente sempre prevalece.
 
 ---
 
-## 3. Informações que precisam de atenção especial
+## Informações dinâmicas
 
-Informações dinâmicas podem ter mudado:
+Antes de reutilizar, consultar a fonte atual quando necessário:
 
-- disponibilidade;
+- estoque;
 - preço;
-- situação da unidade;
-- reserva;
-- saúde da bateria de outra unidade;
-- condição de estoque;
+- disponibilidade da unidade;
+- condições comerciais;
+- entrega;
 - prazo;
-- taxa de entrega;
-- condições comerciais.
+- outras informações que possam ter mudado.
 
-Quando a resposta depender desses dados, usar a fonte atual.
-
-Não reutilizar preço ou disponibilidade antiga como se ainda estivesse confirmada.
+Não afirmar que uma unidade continua disponível apenas porque estava disponível na conversa anterior.
 
 ---
 
-## 4. Cliente volta espontaneamente
+## Cliente volta espontaneamente
 
 Exemplos:
 
-"Oi, ainda tem aquele?"
+"Ainda tem?"
 
-"E o 14?"
+"E aquele 14?"
+
+"Quanto fica mesmo?"
 
 "Vou querer."
 
 "Conseguiu ver?"
 
-"Quanto fica mesmo?"
+Interpretar usando o contexto.
 
-Usar o histórico para interpretar.
-
-Não responder:
-
-"Qual modelo você procura?"
-
-quando o modelo já estiver identificado.
-
-Não dizer:
-
-"Pode me explicar melhor?"
-
-quando o contexto já explica a mensagem.
+Não perguntar novamente qual aparelho ele procura quando isso já estiver claro.
 
 ---
 
-## 5. Cliente volta perguntando disponibilidade
+## Cliente volta perguntando disponibilidade
 
-Exemplo:
+Identificar o aparelho ou unidade que estava sendo negociado e consultar o estoque atual.
 
-"Tem ainda?"
+Responder sobre ele.
 
-Identificar qual aparelho estava sendo negociado.
-
-Consultar o estoque atual.
-
-Responder sobre aquele aparelho.
-
-Não mostrar novamente todo o estoque.
+Não apresentar novamente todo o estoque.
 
 ---
 
-## 6. Cliente volta perguntando preço
+## Cliente volta perguntando preço
 
-Exemplo:
+Identificar o aparelho pelo contexto e utilizar o preço atual.
 
-"Quanto fica mesmo?"
-
-Identificar o aparelho pelo contexto.
-
-Usar o preço atual disponível.
+Não perguntar novamente qual modelo quando estiver claro.
 
 Se o preço mudou, usar a informação atual.
 
-Não inventar explicação para uma mudança de preço.
-
-Se for necessário explicar ou negociar, seguir as regras apropriadas.
-
 ---
 
-## 7. Cliente volta decidido
+## Cliente volta decidido
 
 Exemplo:
 
-"Vou querer aquele preto."
+"Vou ficar com aquele preto."
 
-Se o histórico deixa claro qual unidade é:
+Se o contexto identifica claramente a unidade:
 
-Não voltar para recomendação.
-
-Não perguntar novamente modelo, memória ou cor.
-
-Verificar disponibilidade atual e avançar para fechamento.
+- verificar disponibilidade atual;
+- não voltar para recomendação;
+- avançar para fechamento.
 
 ---
 
-## 8. Cliente muda de ideia
+## Cliente muda de ideia
+
+A informação mais recente prevalece.
 
 Exemplo:
 
 Antes queria iPhone 13.
 
-Agora diz:
+Agora:
+"Acho que vou de 14."
 
-"Acho que vou pegar um 14."
+Passar a conduzir considerando o iPhone 14.
 
-A informação mais recente prevalece.
-
-Não insistir no modelo anterior.
-
-Usar o histórico apenas como contexto.
-
-A partir desse momento, conduzir a conversa considerando o iPhone 14.
+Não insistir na preferência antiga.
 
 ---
 
-## 9. Cliente volta depois de objeção de preço
+## Troca já iniciada
 
-Se anteriormente o cliente achou caro e agora retorna:
+Preservar todos os dados já coletados.
 
-Não começar novamente defendendo o preço.
+Não perguntar novamente modelo, armazenamento, bateria, peças ou estado quando essas informações já estiverem disponíveis e continuarem válidas.
 
-Observe o que ele está perguntando agora.
-
-Se voltou perguntando disponibilidade, responda disponibilidade.
-
-Se voltou querendo negociar, use o playbook de desconto.
-
-Se voltou decidido, avance.
-
-A objeção anterior é contexto, não obrigação de falar novamente sobre ela.
+Perguntar somente o que ainda faltar.
 
 ---
 
-## 10. Cliente volta depois de avaliação de troca
+## Fotos ou vídeos já enviados
 
-Preservar os dados já coletados sobre o aparelho usado.
+Se o cliente já recebeu mídia de uma unidade, considerar isso no contexto.
 
-Não perguntar novamente:
-
-- modelo;
-- memória;
-- bateria;
-- peças;
-- defeitos;
-- marcas;
-
-quando essas informações já estiverem disponíveis e continuarem válidas.
-
-Se faltar somente uma informação, pedir somente essa.
-
----
-
-## 11. Cliente volta depois de receber fotos
-
-Não perguntar novamente se ele quer fotos.
-
-A próxima resposta deve considerar que as fotos já fizeram parte da negociação.
-
-Se ele disser:
+Exemplo:
 
 "Gostei desse."
 
-Identificar qual unidade estava sendo mostrada e avançar.
+Se estiver claro qual aparelho foi mostrado, não perguntar novamente qual deles.
+
+Avançar a partir da escolha.
 
 ---
 
-## 12. Cliente volta depois de alguns dias
+## Objeção anterior
 
-Não assumir que estoque e preço continuam iguais.
+Uma objeção antiga é contexto, não obrigação de voltar ao assunto.
 
-Preferências do cliente podem continuar úteis.
+Se anteriormente achou caro e agora pergunta:
 
-Dados comerciais dinâmicos devem ser consultados novamente quando necessários.
+"Ainda tem?"
 
----
+Responder sobre disponibilidade.
 
-## 13. Cliente volta depois de muito tempo
+Não começar novamente defendendo o preço.
 
-Mesmo quando a conversa for antiga, não ignorar automaticamente o contexto.
-
-Verificar se existe informação útil.
-
-Se a retomada estiver clara, continuar.
-
-Se houver ambiguidade real porque várias negociações antigas existem ou o cliente mudou completamente de assunto, fazer somente a pergunta necessária para identificar o novo objetivo.
+Tratar a objeção somente se ela voltar a ser relevante.
 
 ---
 
-## 14. Retomada ativa de lead
+## Pendência
 
-Quando a Primos iniciar a retomada de um cliente que parou de responder, não enviar mensagem genérica sem considerar o histórico.
+Se a conversa parou porque o cliente aguardava alguma informação, quando essa informação estiver disponível retomar diretamente pelo assunto pendente.
 
-Evitar:
+Não reiniciar a apresentação comercial.
+
+---
+
+## Cliente diz que vai pensar
+
+Não pressionar.
+
+Se não houver dúvida ou objeção pendente, respeitar o momento.
+
+Preservar o contexto para uma possível conversa futura.
+
+---
+
+## Cliente desistiu
+
+Quando fizer sentido e o cliente estiver aberto à conversa, pode ser útil entender o motivo.
+
+Não insistir quando ele claramente quiser encerrar.
+
+Se informar que comprou em outro lugar, não tentar recuperar a venda à força nem criticar a escolha.
+
+---
+
+## Retomada ativa
+
+Quando o fluxo determinar que uma retomada deve ser enviada, usar o contexto da negociação.
+
+Evitar mensagens genéricas como:
 
 "Olá, ainda tem interesse?"
 
-"Oi, podemos ajudar?"
+"Podemos ajudar?"
 
-"Passando para saber se ainda deseja atendimento."
+Preferir uma mensagem relacionada ao que o cliente realmente estava avaliando.
 
-Preferir uma retomada relacionada ao que estava sendo negociado.
-
----
-
-## 15. Retomada com aparelho específico
-
-Se o cliente estava interessado em uma unidade específica, usar isso.
-
-Exemplo de lógica:
-
-"Oi! Sobre aquele 14 Plus preto que você estava vendo..."
-
-A continuação depende do motivo real da retomada.
-
-Não afirmar disponibilidade sem consultar o estoque atual.
+Nunca inventar disponibilidade, condição ou urgência para gerar resposta.
 
 ---
 
-## 16. Retomada depois de dúvida não resolvida
+## Não repetir informações
 
-Se havia uma pergunta pendente e agora existe a resposta, retomar diretamente por ela.
-
-Exemplo:
-
-O cliente perguntou sobre uma condição e ficou aguardando confirmação.
-
-Quando houver confirmação, não mandar:
-
-"Olá, tudo bem?"
-
-como única mensagem.
-
-Entregar a informação que estava pendente.
-
----
-
-## 17. Retomada depois de negociação de preço
-
-Se o cliente aguardava uma condição especial e houve resposta humana:
-
-Retomar pela condição.
-
-Não reiniciar apresentação do aparelho.
-
-Não repetir argumentos de venda já utilizados sem necessidade.
-
----
-
-## 18. Retomada quando surgiu alternativa relevante
-
-Pode fazer sentido retomar quando surgir uma opção que corresponde diretamente ao que o cliente procurava.
-
-Exemplo:
-
-Cliente queria iPhone 14 Plus preto e não havia.
-
-Posteriormente entra uma unidade compatível.
-
-Uma retomada pode ser útil.
-
-Não enviar alternativas aleatórias apenas para gerar mensagem.
-
----
-
-## 19. Retomada quando o aparelho continua disponível
-
-Não usar falsa urgência.
-
-Evitar:
-
-"Última chance."
-
-"Vai acabar."
-
-"Corre que está saindo."
-
-a menos que exista uma informação real e apropriada que justifique a comunicação.
-
-Não criar escassez falsa.
-
----
-
-## 20. Investigar desistência quando fizer sentido
-
-Se o cliente demonstrava interesse concreto e desistiu explicitamente, pode ser útil entender o motivo.
-
-Exemplo:
-
-"Vou deixar pra lá."
-
-Dependendo do contexto, uma pergunta curta pode ajudar:
-
-"Foi mais pelo valor ou acabou mudando de ideia sobre o modelo?"
-
-Não insistir quando o cliente claramente quiser encerrar.
-
-O objetivo é entender, não pressionar.
-
----
-
-## 21. Cliente diz que comprou em outro lugar
-
-Não tentar recuperar a venda à força.
-
-Não criticar onde ele comprou.
-
-Responder naturalmente.
-
-A informação pode ser útil para não continuar tentando vender o mesmo aparelho.
-
----
-
-## 22. Cliente diz que vai comprar depois
-
-Se ele informar um momento aproximado de compra, preservar isso no contexto.
-
-Não pressionar para fechar imediatamente.
-
-Uma futura retomada deve respeitar o momento informado.
-
----
-
-## 23. Cliente pediu para aguardar
-
-Se o cliente disser:
-
-"Te chamo depois."
-
-"Vou ver e te aviso."
-
-"Vou conversar com minha esposa."
-
-"Vou pensar."
-
-Não continuar enviando mensagens em sequência.
-
-Respeitar o momento.
-
-Uma retomada futura deve seguir a política definida para leads.
-
----
-
-## 24. Não repetir apresentação comercial
-
-Se o cliente já conhece:
+Não repetir automaticamente:
 
 - garantia;
-- condição;
-- formas de pagamento;
-- funcionamento da troca;
-
-não repetir tudo em uma retomada sem motivo.
-
-Usar somente o que for relevante para a mensagem atual.
-
----
-
-## 25. Retomada e estágio de venda
-
-### Estágio inicial
-
-Objetivo:
-
-Reabrir a conversa de forma leve e contextual.
-
-### Consideração
-
-Objetivo:
-
-Resolver o ponto que impediu avanço ou facilitar a escolha.
-
-### Decisão
-
-Objetivo:
-
-Retomar exatamente o próximo passo necessário para conclusão.
-
-Quanto mais avançada estava a venda, mais específica deve ser a retomada.
-
----
-
-## 26. Quando houver negociação humana em andamento
-
-Se a conversa foi assumida por vendedor humano e existe negociação em andamento:
-
-A IA não deve entrar novamente apenas porque chegou uma nova mensagem.
-
-Respeitar o estado de atendimento humano definido pelo fluxo.
-
-Esse controle deve ser feito também pela automação.
-
-A IA não deve competir com o vendedor humano.
-
----
-
-## 27. Depois que o humano assumir
-
-Enquanto a conversa estiver marcada como atendimento humano:
-
-- não responder automaticamente;
-- não iniciar nova descoberta;
-- não enviar retomada;
-- não interferir na negociação.
-
-A IA pode voltar somente quando a regra operacional permitir que o atendimento seja devolvido para ela.
-
----
-
-## 28. Retorno para atendimento da IA
-
-Quando uma conversa voltar do humano para a IA:
-
-Preservar o que aconteceu durante o atendimento humano.
-
-O resumo deve refletir:
-
-- decisões;
-- valores combinados;
-- aparelho escolhido;
-- troca;
 - pagamento;
-- entrega;
-- condições especiais autorizadas;
-- pendências.
+- características do aparelho;
+- política de troca;
+- informações já explicadas.
 
-Não fazer a IA continuar com um contexto anterior ao atendimento humano.
-
----
-
-## 29. Evitar retomadas sem valor
-
-Não mandar mensagem apenas porque passou determinado tempo.
-
-Uma boa retomada deve ter pelo menos um destes motivos:
-
-- continuar negociação relevante;
-- resolver pendência;
-- apresentar alternativa compatível;
-- informar algo solicitado;
-- acompanhar cliente com intenção concreta;
-- entender desistência quando comercialmente útil.
+Usar novamente somente quando forem relevantes para a mensagem atual.
 
 ---
 
-## 30. Exemplos
+## Atendimento humano
 
-### Exemplo A
+Se o fluxo indicar que a conversa está sob atendimento humano, a IA não deve responder.
 
-Histórico:
+Quando o atendimento voltar para a IA, utilizar o resumo e histórico atualizados, incluindo o que foi decidido pelo humano.
 
-Cliente estava vendo iPhone 14 Plus preto.
-
-Cliente retorna:
-
-"Tem ainda?"
-
-Evitar:
-
-"Qual modelo você procura?"
-
-Usar o contexto, consultar o estoque atual e responder.
-
----
-
-### Exemplo B
-
-Histórico:
-
-Cliente tinha iPhone 13 128GB, bateria 84% para troca.
-
-Cliente retorna:
-
-"Quero ver quanto fica no 15."
-
-Não perguntar novamente os dados do iPhone 13.
-
-Usar o que já existe e continuar a negociação.
-
----
-
-### Exemplo C
-
-Histórico:
-
-Cliente recebeu duas opções e escolheu uma.
-
-Cliente retorna:
-
-"Vou ficar com aquele."
-
-Identificar a unidade pelo contexto.
-
-Verificar disponibilidade atual.
-
-Avançar para fechamento.
-
----
-
-### Exemplo D
-
-Histórico:
-
-Cliente estava apenas pesquisando e disse que voltaria mês que vem.
-
-Não tratá-lo dois dias depois como lead urgente de fechamento.
-
-Respeitar o momento informado.
-
----
-
-### Exemplo E
-
-Histórico:
-
-Humano assumiu uma negociação de desconto.
-
-Cliente manda nova mensagem.
-
-A IA não deve responder automaticamente enquanto o atendimento continuar sob responsabilidade humana.
+A automação é responsável por controlar quando a IA pode ou não atuar.
 
 ---
 
@@ -584,4 +242,4 @@ A IA não deve responder automaticamente enquanto o atendimento continuar sob re
 
 Uma conversa pausada não é uma conversa apagada.
 
-Retomar bem significa lembrar o que importa, atualizar o que pode ter mudado e continuar do ponto certo sem fazer o cliente começar novamente.
+Lembrar o que continua válido, atualizar o que pode ter mudado e continuar exatamente do ponto que fizer sentido.
