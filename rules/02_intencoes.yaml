@@ -1,254 +1,103 @@
 metadata:
   id: intencoes
-  version: 2.0.0
+  version: 3.0.0
   priority: high
-  description: Classificação das principais intenções de atendimento e comportamento esperado.
+  description: Classificação da intenção principal para a saída estruturada do atendimento.
 
 intents:
 
   compra:
-    descricao: Cliente demonstra interesse em adquirir um aparelho ou avançar para fechamento.
-    sources:
-      - estoque
-      - precos
-      - pagamentos
-      - historico
-      - memoria
-    comportamento:
-      - identificar o que falta para avançar
-      - não reabrir decisões já tomadas
-      - facilitar escolha, pagamento, retirada ou entrega
-    sinais:
-      - quero esse
-      - vou ficar com esse
-      - tem disponível
-      - quero comprar
-      - consegue separar
-      - como faço para pagar
-      - quero fechar
-      - posso buscar hoje
+    descricao: Cliente demonstra interesse em adquirir um aparelho ou avançar uma negociação de compra.
+    exemplos:
+      - pergunta disponibilidade ou preço de aparelho
+      - procura modelo, cor, memória ou unidade
+      - pede recomendação para comprar
+      - escolhe um aparelho
+      - pede reserva
+      - demonstra intenção de fechar
 
-  estoque:
-    descricao: Cliente pergunta disponibilidade, modelo, cor, memória, bateria, condição ou unidades.
-    sources:
-      - estoque
-    comportamento:
-      - consultar estoque atual
-      - responder apenas o que foi perguntado
-      - não listar todas as unidades automaticamente
-      - usar diferenças do estoque para conduzir a escolha quando necessário
-    regra:
-      - Quando houver várias unidades, apresentar poucas opções relevantes ou fazer uma pergunta que ajude a filtrar.
-
-  preco:
-    descricao: Cliente pergunta preço de um aparelho ou opção específica.
-    sources:
-      - estoque
-      - precos
-    comportamento:
-      - informar preço quando disponível
-      - não esconder preço para forçar conversa
-      - não despejar outras informações sem necessidade
-      - conduzir naturalmente após responder quando houver oportunidade
-
-  tabela_precos:
-    descricao: Cliente pede tabela, lista, valores ou aparelhos disponíveis de forma ampla.
-    sources:
-      - estoque
-      - precos
-    comportamento:
-      - apresentar somente aparelhos disponíveis
-      - manter resposta organizada e resumida
-      - evitar incluir detalhes técnicos desnecessários de cada unidade
-      - não obrigar entrevista antes de mostrar a tabela
-    rule:
-      - Mostrar somente itens disponíveis no estoque atual.
-
-  recomendacao:
-    descricao: Cliente quer ajuda para escolher um aparelho.
-    sources:
-      - produtos
-      - estoque
-      - historico
-      - memoria
-    comportamento:
-      - descobrir apenas os critérios que realmente mudam a recomendação
-      - não fazer várias perguntas ao mesmo tempo
-      - recomendar poucas opções
-      - explicar benefício prático em vez de despejar especificações
-      - considerar orçamento, uso e estoque
+  duvida:
+    descricao: Cliente busca informação que não é melhor representada pelas demais categorias.
+    exemplos:
+      - garantia
+      - condição ou funcionamento de aparelho
+      - fotos ou vídeos
+      - informações gerais
+      - pós-venda
+      - assistência
+      - dúvidas sobre a operação
 
   comparacao:
-    descricao: Cliente compara dois ou mais modelos, condições, preços ou benefícios.
-    sources:
-      - produtos
-      - estoque
-      - historico
-    comportamento:
-      - identificar qual diferença realmente importa
-      - explicar de forma prática
-      - evitar lista longa de especificações
-      - dar uma recomendação quando houver informação suficiente
+    descricao: Cliente compara modelos, aparelhos, preços, características ou custo-benefício.
+    exemplos:
+      - compara dois modelos
+      - pergunta qual vale mais a pena
+      - compara duas unidades
+      - pergunta sobre vantagem de trocar de modelo
 
   troca:
-    descricao: Cliente fala sobre usar um iPhone usado como parte do pagamento ou quer avaliação.
-    sources:
-      - trocas
-      - historico
-      - memoria
-    comportamento:
-      - identificar dados já fornecidos
-      - coletar somente o que estiver faltando
-      - não transformar a coleta em formulário
-      - não informar avaliação final sem validação necessária
-    requires_human:
-      - quando a avaliação final depender de vendedor
-      - quando houver condição fora do padrão
-      - quando houver dúvida relevante sobre o aparelho
+    descricao: O foco atual é usar um aparelho usado na negociação ou realizar sua avaliação.
+    exemplos:
+      - pergunta se aceita aparelho na troca
+      - informa dados do aparelho usado
+      - pergunta quanto vale seu aparelho
+      - negocia avaliação
+      - pergunta diferença considerando a troca
 
   pagamento:
-    descricao: Cliente pergunta sobre Pix, dinheiro, débito, crédito, parcelamento ou combinação de formas de pagamento.
-    sources:
-      - pagamentos
-      - politica_comercial
-    comportamento:
-      - responder diretamente quando houver regra disponível
-      - nunca inventar parcelas, taxas ou condições
-      - não encaminhar para humano sem necessidade
-
-  desconto:
-    descricao: Cliente pede desconto, melhor valor ou negociação especial.
-    sources:
-      - politica_comercial
-      - historico
-    comportamento:
-      - entender a objeção quando necessário
-      - reforçar valor de forma curta
-      - não oferecer automaticamente opção mais barata
-      - nunca conceder desconto por conta própria
-    requires_human: true
-
-  garantia:
-    descricao: Cliente pergunta sobre garantia, cobertura ou problema após a compra.
-    sources:
-      - garantias
-      - historico
-    comportamento:
-      - responder de forma simples quando a pergunta for simples
-      - explicar cobertura somente quando necessário
-      - encaminhar casos duvidosos ou fora do padrão
+    descricao: O foco atual é forma ou condição de pagamento.
+    exemplos:
+      - Pix
+      - dinheiro
+      - débito
+      - crédito
+      - parcelamento
+      - quantidade ou valor de parcelas
+      - combinação de formas de pagamento
 
   entrega:
-    descricao: Cliente pergunta sobre entrega, retirada, local, prazo ou taxa.
-    sources:
-      - entregas
-      - historico
-    comportamento:
-      - usar informações disponíveis
-      - perguntar local quando necessário
-      - nunca inventar taxa ou prazo
-      - não prometer condição operacional sem confirmação
-
-  fotos_videos:
-    descricao: Cliente pede foto ou vídeo de aparelho.
-    sources:
-      - estoque
-      - estado_aparelho
-    comportamento:
-      - entender qual unidade interessa quando necessário
-      - tratar foto ou vídeo como específico do aparelho
-      - não prometer conteúdo que não está disponível
-      - encaminhar ou sinalizar necessidade humana quando alguém precisar produzir o material
-
-  estado_aparelho:
-    descricao: Cliente pergunta sobre marcas, tela, carcaça, peças, condição ou estado geral.
-    sources:
-      - estoque
-      - estado_aparelho
-    comportamento:
-      - responder apenas sobre a unidade relevante
-      - ser transparente
-      - não despejar condição de todas as unidades
-      - usar condição para diferenciar opções quando fizer sentido
-
-  assistencia:
-    descricao: Cliente procura assistência técnica ou relata problema em aparelho.
-    sources:
-      - assistencia
-      - historico
-    comportamento:
-      - realizar triagem inicial
-      - coletar somente informações necessárias
-      - não realizar diagnóstico definitivo
-      - não prometer valor, prazo ou peça antes da avaliação
-    requires_human:
-      - quando o caso exigir análise técnica
-      - quando houver risco ou dúvida relevante
-
-  reserva:
-    descricao: Cliente quer reservar ou separar um aparelho.
-    sources:
-      - politica_comercial
-      - estoque
-    comportamento:
-      - não confirmar reserva automaticamente
-      - seguir política de reserva vigente
-      - encaminhar quando depender de validação ou ação humana
-    requires_human: true
-
-  fechamento:
-    descricao: Cliente demonstra decisão clara de concluir a compra.
-    sources:
-      - estoque
-      - pagamentos
-      - entregas
-      - historico
-    comportamento:
-      - facilitar conclusão
-      - não reabrir comparação sem motivo
-      - remover apenas os obstáculos restantes
-      - conduzir para pagamento, retirada ou entrega
-
-  reclamacao:
-    descricao: Cliente relata problema, insatisfação, conflito ou reclamação.
-    sources:
-      - historico
-      - garantias
-      - assistencia
-    comportamento:
-      - reconhecer a situação sem discutir
-      - não prometer solução fora das regras
-      - preservar o contexto
-      - encaminhar quando exigir intervenção
-    requires_human: true
-
-  humano:
-    descricao: Cliente pede explicitamente atendimento de uma pessoa.
-    comportamento:
-      - não insistir em continuar o atendimento automático
-      - encaminhar preservando o contexto
-    requires_human: true
+    descricao: O foco atual é logística para receber ou retirar o aparelho.
+    exemplos:
+      - entrega
+      - retirada
+      - bairro ou região
+      - taxa de entrega
+      - prazo
+      - horário
+      - local de retirada
 
   outro:
-    descricao: Nenhuma intenção anterior representa bem a mensagem.
-    comportamento:
-      - interpretar pelo contexto
-      - responder se houver segurança
-      - perguntar somente o necessário quando houver ambiguidade
-      - encaminhar se não for possível responder com segurança
+    descricao: Usar somente quando nenhuma categoria anterior representar adequadamente o foco principal da mensagem.
+    exemplos:
+      - conversa sem intenção comercial identificável
+      - mensagem ambígua sem contexto suficiente
+      - assunto fora das categorias disponíveis
 
-priority_rules:
+classification_rules:
 
-  - Se houver mais de uma intenção na mesma mensagem, priorizar a que define o próximo passo da negociação.
-  - Se o cliente já estiver em estágio de decisão, não rebaixar a conversa para exploração sem motivo.
-  - Uma pergunta sobre pagamento após escolha de aparelho normalmente indica fechamento ou decisão, não apenas dúvida genérica.
-  - Pedido de troca junto com interesse em compra deve preservar as duas informações, mas a resposta deve focar no próximo passo necessário.
-  - Pedido explícito para falar com humano sempre prevalece.
+  - Retornar exatamente uma intenção.
+  - Usar somente os valores definidos neste arquivo.
+  - Classificar pelo foco principal da mensagem atual considerando o contexto da conversa.
+  - Quando houver mais de um assunto, escolher aquele que representa o próximo passo principal.
+  - Não criar novas categorias de intenção.
+  - Não usar o nome do playbook como intenção quando esse nome não estiver entre os valores permitidos.
 
-model_interpretation:
+  - Uma pergunta sobre preço, estoque, cor, memória ou disponibilidade de aparelho normalmente pertence a compra.
+  - Pedido de recomendação para escolher um aparelho pertence a compra.
+  - Garantia, estado do aparelho, fotos, vídeos, pós-venda e assistência pertencem a duvida quando nenhuma categoria mais específica desta lista representar melhor o foco.
+  - Pedido de desconto não cria uma intenção própria; classificar conforme o foco da negociação, normalmente compra ou pagamento.
+  - Reserva e fechamento não são intenções próprias; normalmente pertencem a compra.
+  - Reclamação e pedido de atendimento humano não são intenções próprias; usar a categoria que melhor representa o assunto e controlar precisa_humano separadamente.
+
+  - Se o cliente estiver comprando um aparelho e perguntar especificamente sobre parcelamento, usar pagamento.
+  - Se estiver comprando e o foco passar para entrega ou retirada, usar entrega.
+  - Se o foco passar para avaliação do aparelho usado, usar troca.
+  - Se estiver comparando alternativas para decidir, usar comparacao.
+
+context_interpretation:
 
   - '"iPhone 13" significa iPhone 13 normal.'
   - '"linha 13" pode incluir mini, normal, Pro e Pro Max.'
-  - Não listar versões diferentes quando o cliente já informou o modelo exato.
-  - Quando o cliente responder apenas uma cor, modelo, memória ou preferência curta, interpretar como continuação da conversa anterior.
-  - Mensagens curtas como "preto", "128", "quanto fica?" ou "e na troca?" devem ser interpretadas usando o histórico e o resumo.
+  - Não interpretar versões diferentes quando o cliente informou um modelo exato.
+  - Respostas curtas como "preto", "128", "quanto fica?" ou "e na troca?" devem ser interpretadas dentro da conversa anterior.
+  - Uma resposta curta do cliente pode mudar o foco da intenção sem representar uma nova conversa.
